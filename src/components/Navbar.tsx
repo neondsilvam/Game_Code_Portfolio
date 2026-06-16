@@ -12,7 +12,9 @@ export function Navbar({ currentPage, onNavigate }: NavbarProps) {
 
   const pages: { key: Page; label: string }[] = [
     { key: 'perfil', label: t.nav.perfil },
-    { key: 'proyectos', label: t.nav.proyectos },
+    { key: 'github', label: t.nav.github },
+    { key: 'gameExp', label: t.nav.gameExp },
+    { key: 'uiExp', label: t.nav.uiExp },
     { key: 'contacto', label: t.nav.contacto },
   ]
 

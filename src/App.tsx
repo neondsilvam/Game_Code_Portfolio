@@ -2,7 +2,9 @@ import { useState } from 'react'
 import { LangProvider } from './context/LangContext'
 import { Navbar } from './components/Navbar'
 import { Perfil } from './pages/Perfil'
-import { Proyectos } from './pages/Proyectos'
+import { GithubProjects } from './pages/GithubProjects'
+import { GameExp } from './pages/GameExp'
+import { UiExp } from './pages/UiExp'
 import { Contacto } from './pages/Contacto'
 import type {Page} from './types'
 import { Footer } from './components/Footer'
@@ -15,8 +17,12 @@ function AppContent() {
     switch (currentPage) {
       case 'perfil':
         return <Perfil />
-      case 'proyectos':
-        return <Proyectos />
+      case 'github':
+        return <GithubProjects />
+      case 'gameExp':
+        return <GameExp />
+      case 'uiExp':
+        return <UiExp />
       case 'contacto':
         return <Contacto />
     }

@@ -1,12 +1,6 @@
 export type Lang = 'es' | 'en'
 
-export type Page = 'perfil' | 'proyectos' | 'contacto'
-
-export interface ProjectStatic {
-    id: string
-    iframeSrc: string
-    section: string
-}
+export type Page = 'perfil' | 'github' | 'gameExp' | 'uiExp' | 'contacto'
 
 export interface Project {
   id: string
@@ -14,6 +8,29 @@ export interface Project {
   description: string
   iframeSrc: string
   section: string
+  hasExternalLinks: boolean
+  externalLinks: string
+  isShowingTheProcess: boolean
+  process: {
+    sections:  {
+      preproduction: {
+        title: string
+        description: string []
+        media: string []
+      }
+      production: {
+        title: string
+        description: string []
+        media: string []
+      }
+      postproduction: {
+        title: string
+        description: string []
+        media: string []
+      }
+    }
+    sectionFooter: string
+  }
 }
 
 export interface ProjectTranslation {
@@ -31,7 +48,9 @@ export interface Translations {
   nav: {
     logo: string
     perfil: string
-    proyectos: string
+    github: string
+    gameExp: string
+    uiExp: string
     contacto: string
     langBtn: string
   }
@@ -41,10 +60,26 @@ export interface Translations {
     description: string
     tags: string[]
   }
-  proyectos: {
+  github: {
       sections: Section[]
       aclaration: string,
       projects: ProjectTranslation[]
+      showingProcessButtonTextFalse: string
+      showingProcessButtonTextTrue: string
+  }
+  gameExp: {
+      sections: Section[]
+      aclaration: string,
+      projects: ProjectTranslation[]
+      showingProcessButtonTextFalse: string
+      showingProcessButtonTextTrue: string
+  }
+  uiExp: {
+      sections: Section[]
+      aclaration: string,
+      projects: ProjectTranslation[]
+      showingProcessButtonTextFalse: string
+      showingProcessButtonTextTrue: string
   }
   contacto: {
     title: string
