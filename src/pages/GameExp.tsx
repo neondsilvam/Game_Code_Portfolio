@@ -1,21 +1,21 @@
 import {useState, useEffect} from 'react'
 import {useLang} from '../context/LangContext'
 import type {Project} from '../types'
-import {AnimationProjects, AnimationProjectsEn} from '../data/projects'
+import {GameExpES, GameExpEN} from '../data/projects'
 import styles from './Proyectos.module.css'
 
 export function GameExp() {
     const {t, lang} = useLang()
 
     const [projects, setProjects] = useState<Project[]>(
-        lang === 'en' ? AnimationProjectsEn : AnimationProjects
+        lang === 'en' ? GameExpEN : GameExpES
     )
     const [selectedId, setSelectedId] = useState<string>(
-        lang === 'en' ? AnimationProjectsEn[0].id : AnimationProjects[0].id
+        lang === 'en' ? GameExpEN[0].id : GameExpES[0].id
     )
 
     useEffect(() => {
-        const nextProjects = lang === 'en' ? AnimationProjectsEn : AnimationProjects
+        const nextProjects = lang === 'en' ? GameExpEN : GameExpES
         setProjects(nextProjects)
         setSelectedId(nextProjects[0].id)
     }, [lang])
@@ -61,7 +61,7 @@ export function GameExp() {
                         <h2 className={styles.detailTitle}>{selected.title}</h2>
                         <p className={styles.detailDesc}>{selected.description}</p>
                         {selected.hasExternalLinks ? (
-                            <a href={selected.externalLinks} target="_blank">{selected.externalLinks}</a>) : (<></>)}
+                            <a href={selected.externalLinks} target="_blank" className={styles.detailDesc}>{selected.externalLinks}</a>) : (<></>)}
                     </div>
                     <div className={styles.iframeWrapper}>
                         {selected.iframeSrc ? (
@@ -72,7 +72,7 @@ export function GameExp() {
                                 allowFullScreen
                             />
                         ) : (
-                            <p className={styles.iframePlaceholder}></p>
+                            <img className={styles.iframe} src={selected.imageSrc}></img>
                         )}
                     </div>
                     <button className={styles.processButton}

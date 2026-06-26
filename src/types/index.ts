@@ -1,12 +1,14 @@
 export type Lang = 'es' | 'en'
 
-export type Page = 'perfil' | 'github' | 'gameExp' | 'uiExp' | 'contacto'
+export type Page = 'perfil' | 'gameExp' | 'uiExp' | 'contacto'
 
 export interface Project {
   id: string
   title: string
   description: string
+  isProjectDeployed: boolean
   iframeSrc: string
+  imageSrc: string
   section: string
   hasExternalLinks: boolean
   externalLinks: string
@@ -48,7 +50,6 @@ export interface Translations {
   nav: {
     logo: string
     perfil: string
-    github: string
     gameExp: string
     uiExp: string
     contacto: string
@@ -59,13 +60,6 @@ export interface Translations {
     role: string
     description: string
     tags: string[]
-  }
-  github: {
-      sections: Section[]
-      aclaration: string,
-      projects: ProjectTranslation[]
-      showingProcessButtonTextFalse: string
-      showingProcessButtonTextTrue: string
   }
   gameExp: {
       sections: Section[]
@@ -91,7 +85,8 @@ export interface Translations {
       phoneCad: string
       location: string
       linkedin: string
-      github: string
+      MainGithub: string
+      SecondaryGithub: string
     }
   }
 }

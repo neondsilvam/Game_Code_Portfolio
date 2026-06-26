@@ -1,565 +1,172 @@
 import type {Project} from '../types'
 
-//AllDigital y Yandex
-import YandexPre1 from '../assets/Alldigital y Yandex ADS/preprocess.png'
-import YandexPre2 from '../assets/Alldigital y Yandex ADS/preprocess2.png'
-import YandexPro1 from '../assets/Alldigital y Yandex ADS/process.png'
-import YandexPro2 from '../assets/Alldigital y Yandex ADS/process2.png'
-import YandexPost from '../assets/Alldigital y Yandex ADS/postprocess.png'
+//(Des)conectado
+import PreDes1 from '../assets/(Des)conectado/predes1.png'
+import PreDes2 from '../assets/(Des)conectado/predes2.png'
+import PreDes3 from '../assets/(Des)conectado/predes3.png'
+import ProDes1 from '../assets/(Des)conectado/prodes1.png'
+import ProDes2 from '../assets/(Des)conectado/prodes2.png'
+import ProDes3 from '../assets/(Des)conectado/prodes3.png'
+import PostDes1 from '../assets/(Des)conectado/postdes1.png'
+import PostDes2 from '../assets/(Des)conectado/postdes2.png'
+import DesConectado from '../assets/(Des)conectado/(des)conectado.jpg'
 
-//Big Commerce
-import BigPre from '../assets/Big/preprocess.png'
-import BigPro1 from '../assets/Big/process1.png'
-import BigPro3 from '../assets/Big/process2.png'
-import BigPro2 from '../assets/Big/process3.png'
-import BigPost from '../assets/Big/postprocess.png'
+//TaskManagerApp
+import preTaskManager from '../assets/TaskManagerApp/preprocess.png'
+import proTaskManager from '../assets/TaskManagerApp/process.png'
+import postTaskManager from '../assets/TaskManagerApp/postprocess.png'
 
-//Cantar un velero
-import CantarPre1 from '../assets/Cantar/preprocess1.png'
-import CantarPre2 from '../assets/Cantar/preprocess2.png'
-import CantarPro1 from '../assets/Cantar/process1.png'
-import CantarPro2 from '../assets/Cantar/process2.png'
-import CantarPost from '../assets/Cantar/postprocess.png'
+//CocktailApp
+import preCocktail from '../assets/CocktailApp/preprocess.png'
+import proCocktail from '../assets/CocktailApp/process.png'
+import postCocktail from '../assets/CocktailApp/postprocess.png'
 
-//Couch Gag
-import simpsonReference from '../assets/couch/simpson_reference.jpg'
-import modernReference from '../assets/couch/modern_reference.jpg'
-import CouchPro1 from '../assets/couch/process1.png'
-import CouchPro2 from '../assets/couch/process2.png'
-import CouchPro3 from '../assets/couch/process3.png'
-import CouchPost from '../assets/couch/postprocess.png'
-
-//cys
-import cysPre1 from '../assets/cys/preprocess1.png'
-import cysPre2 from '../assets/cys/preprocess2.png'
-import cysPre3 from '../assets/cys/preprocess3.png'
-import cysPro1 from '../assets/cys/process1.png'
-import cysPro2 from '../assets/cys/process2.png'
-import cysPost from '../assets/cys/postprocess.png'
-
-//deraiz
-import deraizPre1 from '../assets/deraiz/preprocess1.png'
-import deraizPre2 from '../assets/deraiz/preprocess2.png'
-import deraizPre3 from '../assets/deraiz/preprocess3.png'
-import deraizPro1 from '../assets/deraiz/process1.png'
-import deraizPro2 from '../assets/deraiz/process2.jpg'
-import deraizPro3 from '../assets/deraiz/process3.jpg'
-import deraizPost from '../assets/deraiz/postprocess1.png'
-
-//Ihand
-import handPre from '../assets/Ihand/preprocess.png'
-import handPro from '../assets/Ihand/process.png'
-import handPost from '../assets/Ihand/postprocess.png'
-
-//Kommo
-import kommoPre from '../assets/kommo/preprocess.png'
-import kommoPro from '../assets/kommo/process.png'
-import kommoPost from '../assets/kommo/postprocess.png'
-
-//preicfes
-import preicfesPre from '../assets/preicfes/preprocess.png'
-import preicfesPro from '../assets/preicfes/process.jpg'
-import preicfesPost from '../assets/preicfes/postprocess.png'
-
-//rubix
-import rubixPre from '../assets/rubix/preprocess.png'
-import rubixPro from '../assets/rubix/process.png'
-import rubixPost from '../assets/rubix/postprocess.png'
-
-//Samurai
-import samuraiPre from '../assets/samurai/preprocess.jpg'
-import samuraiPro from '../assets/samurai/process.png'
-import samuraiPost from '../assets/samurai/postprocess.png'
-
-//Spiderman
-import SpidermanPre from '../assets/Spiderman/preprocess.png'
-import SpidermanPro1 from '../assets/Spiderman/process1.png'
-import SpidermanPro2 from '../assets/Spiderman/process2.png'
-import SpidermanPost from '../assets/Spiderman/postprocess1.png'
-
-export const AnimationProjects: Project[] = [
+export const UIExpES: Project[] = [
     {
         id: 'p1',
-        title: 'La Familia Amarilla sin derechos de autor',
+        title: 'Proyecto base - Portafolio web',
         description:
-            'Este proyecto, inspirado en el formato "Couch Gag", fusiona las introducciones de dos series de la antigua cadena FOX. Fue realizado únicamente con fines académicos y sin fines comerciales.\n' +
-            '\n' +
-            'La animación fue desarrollada a lo largo de dos semanas con Adobe Photoshop y Adobe After Effects, como parte de un ejercicio práctico de animación y experimentación creativa.',
-        iframeSrc: 'https://www.youtube.com/embed/ffGX5rWSqyM',
-        section: '2025',
-        hasExternalLinks: false,
-        externalLinks: "",
+            'Este proyecto fue desarrollado en 2026, tras múltiples versiones previas construidas con diferentes herramientas. Este portafolio fue creado usando React y alojado en GitHub Pages. Refleja mi evolución como programador, así como mi nivel de organización y crecimiento a lo largo de los años.',
+        isProjectDeployed: false,
+        iframeSrc: '',
+        imageSrc: IMGPort,
+        section: '2026',
+        hasExternalLinks: true,
+        externalLinks: "https://github.com/neondsilvam/Web_Framework_portfolio",
         isShowingTheProcess: false,
         process: {
             sections: {
                 preproduction: {
-                    title: "Concepto del projecto",
-                    description: ["Este es un projecto de 2 semanas, el cual tenia el desafio de combinar dos intros de series conocidas. Debido a este, el desarrollo de este elemento se concentra en experimentar con la animacion, mostrando el potencial visual.",
-                        "Mi objetivo principal era intentar aplicar el diseño original del estilo artistico de 'Los Simpson' al mismo tiempo que poder concervar el rimto accelerado de modern family.",
-                        'Despues de una lluvia de idea, pude desarrollar mas a fondo el concepto para poder empezar la animación', 'Referencias:',
-                        'Groening, M. (Creador). (1989–presente). The Simpsons [Serie de televisión].',
-                        'Levitan, S., & Lloyd, C. (Creadores). (2009–2020). Modern Family [Serie de televisión].'],
-                    media: [simpsonReference, modernReference],
+                    title: "Idea Base",
+                    description: [
+                        "Mi portafolio digital ha pasado por diversas herramientas y procesos: desde crearlo con plataformas existentes como Adobe Express, hasta programarlo con HTML y CSS vainilla en servidores como Glitch.",
+                        "Sin embargo, una vez comprendí cómo desarrollarme como programador frontend y comencé a avanzar con React, logré formalizar un proyecto más sólido.",
+                        "Este portafolio no solo sirve como base para mostrar mis otros proyectos, sino también para demostrar mi potencial de aprendizaje y crecimiento personal."
+                    ],
+                    media: [PrePort2, PrePort1],
                 },
                 production: {
-                    title: "La producción actual",
-                    description: ["El processo en si se divido en tres secciones: creación de fondos, animación tradicional y la animación vectorial.",
-                        'En primera instancia, la creación de fondos, la cual se refiere a todas las escenas que despues se animarian de forma vectorial con Adobe After Effects. Esto incluyendo las imagenes del abuelo y de las tias.' ,
-                        'Dentro de la animación vectorial, me enfoque en un estilo "In between", donde sub dividi cada frame a la mitad, con el fin de poder hacer el movimiento de la familia sentandose lo mas fluido posible.',
-                        'Finalmente, la animación vectorial une los clips animados tradicionalmente con loas imagenes estaticas de los fondos. Al mismo tiempo, se configura la linea de tiempo para que esta tengan ese alejamiento progresivo. Para este proceso era importante que las imagenes fueran vectores graficos, para que no cambiara la calidad de la misma durante el proceso.'],
-                    media: [CouchPro1, CouchPro2, CouchPro3],
+                    title: "El desarrollo actual",
+                    description: [
+                        'El concepto inicial fue generar la estructura de las páginas navegables, luego el sistema de idiomas y finalmente el contenido en sí.',
+                        'Era necesario que toda la información estuviera disponible en ambos idiomas, dado que algunos proyectos contaban únicamente con uno de los dos.',
+                        'La idea fue crear interfaces y variables reutilizables dentro del módulo de cada sección, con el fin de permitir el cambio de idioma de forma dinámica.',
+                        'De igual forma, el contenido requería su propia versión tanto en inglés como en español; y aunque es una lógica repetitiva, al ser ambas descripciones únicas, resultan necesarias.',
+                        'Todo esto también dividido por módulo y por proyecto.',
+                        'Aclaración: soy consciente de que estos datos deberían estar en un archivo .env, pero en este caso particular no representa un riesgo de seguridad significativo.'
+                    ],
+                    media: [ProPort],
                 },
                 postproduction: {
-                    title: "Detalles finales",
-                    description: ["Dentro del desarrollo del projecto, no se genera unicamente unicamente la animación, sino que la totalidad de la hisotira que se quiere contar.",
-                        "Por ende, durante esta etapa se agregan sonidos, se pullen detalles, se revisa que todo este en su lugar.", "Todo con el objetivo de concluir el projecto de la mejor manera possible"],
-                    media: [CouchPost],
+                    title: "Pulir detalles",
+                    description: [
+                        "En la etapa final, el enfoque estuvo en organizar el contenido, realizar pruebas y verificar que todo estuviera en su lugar.",
+                        "Durante esta fase se agregaron sonidos, se refinaron detalles visuales y se aseguró la coherencia general del proyecto.",
+                        "Todo con el objetivo de concluir el proyecto de la mejor manera posible.",
+                        "Cabe mencionar que este no es el fin del proyecto, ya que continuará evolucionando conforme mejoren mis habilidades."
+                    ],
+                    media: [PostPort],
                 },
             },
-            sectionFooter: "Este projecto no infrinje ningun derecho de autor y le da el credito del concepto original a sus respectivos autores.",
+            sectionFooter: "Todo el contenido web y visual es de creación propia, salvo que se indique lo contrario.",
         }
     },
     {
         id: 'p2',
-        title: 'Experimento de Rotoscopia',
+        title: 'Proyecto web - Plataforma de juego',
         description:
-            'Este experimento fue desarrollado utilizando la técnica de rotoscopia en Adobe Photoshop, con el objetivo de practicar animación sobre material de archivo.\n' +
-            '\n' +
-            'Se trabajó a partir de clips de "Spider-Man 3" únicamente con fines educativos y sin fines comerciales. El proyecto fue realizado en una semana como ejercicio de práctica y experimentación técnica.',
-        iframeSrc: 'https://www.youtube.com/embed/bazyWtN-WX0',
-        section: '2025',
-        hasExternalLinks: false,
-        externalLinks: "",
+            'Esta página web, desarrollada en 2026 como proyecto de clase, fue construida con React como base. ' +
+            'Se conecta directamente con una base de datos mediante el servicio Google Firebase, el cual almacena los datos de las partidas y los registra en la tabla de posiciones. ' +
+            'También está vinculada con un juego desarrollado en Unity, el cual es una réplica del clásico "Flappy Bird". ' +
+            'Cuenta con registro mediante Google, acceso a metadatos a través de un script en Python, y un panel de administrador controlado desde el propio Firebase.',
+        isProjectDeployed: true,
+        iframeSrc: 'https://pg29juliandsilva.github.io/CloudComputingGameWebApp/',
+        imageSrc: '',
+        section: '2026',
+        hasExternalLinks: true,
+        externalLinks: "https://github.com/pg29JulianDSilva/CloudComputingGameWebApp",
         isShowingTheProcess: false,
         process: {
             sections: {
                 preproduction: {
-                    title: "Conceptos iniciales",
-                    description: ["Este fue un ejercicio de corto tiempo, el cual tenia el objetivo de afectar artisticamente un clip de material ya exsistente con el fin de darle un nuevo significado.","Debido a que este tenia un proposito breve y unicamente experimental, la idea no era tanto la planificaicón sino entender la ejecución.",
-                        "Referencias",
-                        "Raimi, S. (Director). (2007). Spider-Man 3 [Film].",
-                        "Tesfaye, A. (2019). Blinding Lights [Canción]. En After Hours. XO Records; Republic Records."],
-                    media: [SpidermanPre],
+                    title: "Idea Base",
+                    description: [
+                        'Al ser un proyecto de aprendizaje, este no contaba con mucha libertad creativa en cuanto a diseño ni funcionalidad.',
+                        'El concepto inicial era simplemente lograr que la página web se conectara con el juego entregado previamente.',
+                        'Dentro de este proceso, el objetivo no era solo entender la funcionalidad básica, sino también desarrollar el pensamiento lógico necesario para comprender cómo debían funcionar los sistemas internos.'
+                    ],
+                    media: [PreWeb],
                 },
                 production: {
-                    title: "Proceso de creación",
-                    description: ["La idea inicial era simplemente hacer un trazo por frame, donde cada uno tuviera un color diferente.",
-                        "Por ende, el proceso del mismo se enfocaba en usar un seguimiento 'Frame to frame' con el fin de tener las aciones tan unificadas poisble.",
-                        "Tambien cabe resaltar que la animación esta divida entre personajes, fondos, y efectos los cuales tambien se subdividen dentro de animación lineart y de coloreado."],
-                    media: [SpidermanPro1, SpidermanPro2],
+                    title: "La producción en sí",
+                    description: [
+                        'Durante este proyecto, fue necesario implementar diferentes elementos en distintos lenguajes de código.',
+                        'En primer lugar, estaba el juego desarrollado en Unity con C#, exportado como aplicación web mediante GitHub Pages.',
+                        'Luego, la plataforma web construida en React con TypeScript, conectada a Firebase desde el backend.',
+                        'Finalmente, se desarrolló el módulo de integración entre ambos entornos, permitiendo un flujo de datos continuo y consistente.'
+                    ],
+                    media: [ProWeb],
                 },
                 postproduction: {
-                    title: "Detalles finales",
-                    description: ["Ya dentro de este ultimo proceso es poder usar premiere y after effects para mejorar la animación, crear el efecto de desfase, y encajar las diferentes capas.",
-                        "Tambien retocar el audio y agregar los detalles finales del texto para darle un poco mas de contexto."],
-                    media: [SpidermanPost],
+                    title: "Telemetría",
+                    description: [
+                        'En la etapa final, el enfoque no fue pulir detalles visuales, sino implementar la telemetría del sistema.',
+                        'Esto incluyó las opciones de administrador, reguladas desde Firebase y accesibles únicamente con las credenciales correspondientes (más información en GitHub).',
+                        'Este sistema utiliza los datos recolectados para mostrar estadísticas personalizadas del jugador, presentadas como un panel de análisis de datos configurable.'
+                    ],
+                    media: [PostWeb],
                 },
             },
-            sectionFooter: "Este projecto no infrinje ningun derecho de autor y le da el credito del concepto original a sus respectivos autores.",
+            sectionFooter: "",
         }
     },
     {
         id: 'p3',
-        title: 'Deraíz',
+        title: 'Villarica - P5.js',
         description:
-            'Este es un proyecto que hice en colaboración con la Universidad de los Andes. Este tenía el propósito de generar un movimiento artístico de expresión visual, combinando técnicas análogas y digitales. Este fue un trabajo en equipo donde todos teníamos una meta en común y nos organizamos para generar este proyecto. La animación fue hecha en espacios autorizados con grafiti y uniendo todo en Photoshop. Aquí se encuentra la publicación original: ',
-        iframeSrc: 'https://drive.google.com/file/d/101m-0jSkYCH9VfXZf97SYLNLjBeLZI6Z/preview',
+            'Este proyecto fue desarrollado para el semillero de investigación "SENDA" de la Universidad de los Andes, Colombia. ' +
+            'Su propósito principal fue construir un relato periodístico expresado a través de una propuesta de código narrativo. ' +
+            'El enfoque central era lograr que el usuario experimentara lo mismo que vivieron los sobrevivientes, desde sus distintas perspectivas, en uno de los eventos más trágicos de la historia de Colombia. ' +
+            'Está desarrollado en P5.js, un framework de JavaScript orientado a la programación creativa, y apoyado por la librería ml5 para la captura de movimiento en pantalla.',
+        isProjectDeployed: true,
+        iframeSrc: 'https://editor.p5js.org/neon.d.silvam/full/Ob_nfUxlD',
+        imageSrc: '',
         section: '2025',
         hasExternalLinks: true,
-        externalLinks: "https://www.instagram.com/reel/DKHhPdvN8NO/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==",
+        externalLinks: "https://editor.p5js.org/neon.d.silvam/sketches/Ob_nfUxlD",
         isShowingTheProcess: false,
         process: {
             sections: {
                 preproduction: {
-                    title: "Planeación del projecto",
-                    description: ["Este es facilmente uno de los projectos mas ambisiosos en los que he tenido la oportunidad de trabajar",
-                        'Durante este, primero tuvimos el concepto inicial de generar una animación a base de dos ideales opuestos; en este caso, la naturaleza y la industrialización.',
-                        'Tambien queriamos generar una disrupción del sistema, poder generar im impacto del cual se pudiera generar en el espacio publico', 'De ahi el concepto del graffiti y del arte del muralismo.',
-                        'Posterior a este, como era un trabajo en conjunto, nos decidimos a dividir el projecto, cada uno haciendo una pequeña parte de este, para al final unirlo todo en el projecto final.',
-                        'la idea are generar un diseño, el cual conectaria con el de otra persona, haciendo un "Cadaver Esquicito" de la animación.',
-                        'Esto incluye hacer pruebas, prototipos, y ensayos de manera digital antes del dia de producción.'],
-                    media: [deraizPre1, deraizPre2, deraizPre3],
+                    title: "Concepto Inicial",
+                    description: [
+                        'En síntesis, la tragedia de Villarica es uno de los eventos más violentos y dolorosos de la historia de Colombia.',
+                        'Trajo consigo muerte, desplazamiento y abandono, y marca el origen de uno de los grupos armados más peligrosos del país.',
+                        'No era un evento que pudiera abordarse a la ligera; requería una investigación profunda y rigurosa.',
+                        'Fue necesario comprender los detalles del suceso: quiénes fueron las víctimas, cómo fueron afectadas y cuál fue su experiencia.',
+                        'Finalmente, decidí narrar la historia de Ana María Molina, una joven que sobrevivió al bombardeo del pueblo escondiéndose en un hueco bajo su casa.',
+                        'La intención era contar su historia con el mayor respeto posible, al mismo tiempo que transmitir el dolor que vivió.',
+                        'Durante esta etapa también fue necesario investigar el aspecto técnico: comprender el funcionamiento de la librería P5.js y obtener los recursos necesarios para el proyecto.'
+                    ],
+                    media: [PreVilla1, PreVilla4, PreVilla2, PreVilla3],
                 },
                 production: {
-                    title: 'Los dias de "Animación"',
-                    description: ["Como tal, el proceso se divido en dos fechas: El dia del graffiti y el dia de la conexión.",
-                        'El dia del grafiti, todos nos encontramos en un espacio ya acordado, donde pintabamos en analogo cada uno de los frames, para despues poder tomar las respectivas fotos.',
-                        'Debido a la logica del proceso, si o si tocaba animarlo frame by frame, esto con el fin de poder probar ahi mismo que la fluidez era adecuada.',
-                        'Esto se hizo en conjunto con el fin de poder ayudarnos entre nosotros.',
-                        'La segunda parte del proceso consistia en unir las fotos dentro del video de cada uno.',
-                        'para esto ocupamos photoshop con el fin de poder ajustar las imagenes correctamente, al igual que poder corregir cualquier hueco generado por la camada al hacer coincidir la matriz.',
-                        'Esto a traves de puntos de referncia que teniamos puetos en cada frame, para asegurarnos de no dañar la escala en si.',
-                        'ACLARACIÓN:',
-                        'Los espacios utilizados para este proceso fueron autorizados para el mismo. Agradecimientos a La Universidad de los Andes por permitirmos este espacio.'],
-                    media: [deraizPro1, deraizPro2, deraizPro3],
+                    title: "Creando la pieza",
+                    description: [
+                        'Con un plan sólido, el desarrollo se volvió más directo y estructurado.',
+                        'Utilizamos P5.js para construir un sistema de escenas que avanza o retrocede según las decisiones del usuario.',
+                        'Todo controlado mediante captura de movimiento, que analiza el video en tiempo real e identifica las manos a partir de una serie de puntos de referencia específicos.',
+                        'La única excepción es el botón de inicio, controlado por el mouse como medida de seguridad para evitar activaciones prematuras.'
+                    ],
+                    media: [ProVilla1, ProVilla2],
                 },
                 postproduction: {
-                    title: "Detalles finales",
-                    description: ["Dentro de este proceso, teniamos un administrador del projecto, el cual estaria encargado de unir todas las piezas en su totalidad.",
-                        'Por ende, como ninguna de las piezas podia faltar, el trabajo en equipo era indispensable.',
-                        'Todos nos comprometimos a completar y a enviar nuestros clips, los cuales se reflejaron en el producto final.',
-                        'Otra compañera estuvo acargo de generar el audio, concluyendo este projecto'],
-                    media: [deraizPost],
-                },
-            },
-            sectionFooter: "Agradecimentos especiales a La Universidad de los Andes por este projecto.",
-        }
-    },
-    {
-        id: 'p4',
-        title: 'Camilo y Sofía',
-        description:
-            'Este es un cortometraje que escribí, produje, dirigí y edité en 2025. Su desarrollo fue un proceso de aproximadamente dos meses, durante los cuales estuve a cargo de la planeación integral del proyecto, la escritura del guion, la organización del casting y todo el proceso de postproducción.\n' +
-            '\n' +
-            'La realización contó con el apoyo de un asistente de producción, dos actores principales y ocho actores de reparto, consolidando un trabajo colaborativo que permitió materializar la propuesta audiovisual.\n' +
-            '\n' +
-            'La edición fue realizada en Adobe Premiere Pro, en conjunto con Universidad de los Andes, como parte de un proceso de creación y producción audiovisual que integró dirección, narrativa y ejecución técnica.',
-        iframeSrc: 'https://drive.google.com/file/d/1WwlQynzBXN-HRBTu0O6hgMcyh3UD2hig/preview',
-        section: '2025',
-        hasExternalLinks: false,
-        externalLinks: "",
-        isShowingTheProcess: false,
-        process: {
-            sections: {
-                preproduction: {
-                    title: "Storyboard y preproducción",
-                    description: ["Dentro de la creación de este projecto, queria contar une historia a partir de una anecdota, creada dentro de la cotidianidad y reflejada en la realidad.",
-                        'El concepto original era tomar una idea como la de un mesero peleando con un cliente, y de ahi empezar a tejer la historia',
-                        'Creando un storyboard y un guion, empeze a generar la narrativa del cuento, con el fin de poder mostrar de manera efectiva el contraste entre dos personajes que pudieran ser totalmente disparejos.',
-                        'A la par de esto, tambien fui buscando lugares de grabación, hablando con actores y haciendo prebas de equipo para decidir que elementos usar dentro de mi cortometraje.',
-                        'Referencias:',
-                        'Sting. (1987). Englishman in New York [Canción]. En ...Nothing Like the Sun. A&M Records.'],
-                    media: [cysPre1, cysPre2, cysPre3],
-                },
-                production: {
-                    title: 'Rodaje y producción',
-                    description: ["Este projecto lo que fue en total de una semana de rodaje, entre tomas de escenas principales y retomas necesarias",
-                        'Todo esto registrado bajo un plan de rodaje muy rigido, debido a que el dueño del restaurante no queria peder posibles cleintes a las horas de grabar, por lo que teniamos pocas horas de grabar al dia.',
-                        'Todo esto con ayuda de mi asistente de produción, los actores y las actrizes que me ayudaron, y tambien el dueño del restaurante.'],
-                    media: [cysPro1, cysPro2],
-                },
-                postproduction: {
-                    title: "Montaje y post producción",
-                    description: ["Ya dentro de la parte final es principalmente unir los clips dentro del montaje.",
-                        'Todo esto incluyendo tambien el retoque para el audio, para la imagen, e incorporar los debidos graficos visuales y titulos'],
-                    media: [cysPost],
-                },
-            },
-            sectionFooter: 'Agradecimientos espericales al restaurante "La esquina Vegetariana" y a La universidad de los Andes' ,
-        }
-    },
-    {
-        id: 'p5',
-        title: 'Experimento del Cubo Rubik',
-        description:
-            'Este es un experimento corto que hice con animación de rotoscopia usando Photoshop (sonido externo sin derechos de autor).',
-        iframeSrc: 'https://www.youtube.com/embed/8fDgl2y5pW4?si=G0diJ7Bx9-Kbe3uO',
-        section: '2024',
-        hasExternalLinks: false,
-        externalLinks: "",
-        isShowingTheProcess: false,
-        process: {
-            sections: {
-                preproduction: {
-                    title: "Concepto inicial",
-                    description: ["Este fue un experimento mas simple para probar un enfoque diferente con la rotoscopia.",
-                        'El objetivo era simple, tomar un video y cambiar como este se presentaba con la rotoscopia.'],
-                    media: [rubixPre],
-                },
-                production: {
-                    title: "Durante la producción",
-                    description: ["La animación fue muy sencilla, primero el lineart, luego el relleno.",
-                        'Dentro de un concepto inicial tenia pensado tambien incluir las manos.',
-                        'Si alcanze a terminar el lineart de este, pero me di cuenta que el concepto seria mucho mas interesante si el cubo tuviera ese movimiento de manera propia.'],
-                    media: [rubixPro],
-                },
-                postproduction: {
-                    title: "Detalles finales",
-                    description: ['Ya la post producción se enfoco principalmente en el desarrollo del movmiento aparte y de que todo funcionara.',
-                        'Ademas de agregarle un audio generico.'],
-                    media: [rubixPost],
-                },
-            },
-            sectionFooter: "",
-        }
-    },
-    {
-        id: 'p6',
-        title: 'Ihand',
-        description:
-            'Este es un corto proyecto estilo comercial, el cual replica el estilo de anuncios de marcas tecnológicas. Este promociona el producto ficticio "Ihand", el cual sería un teléfono insertado en la mano. Este se hizo con Adobe Premiere Pro, sin fines de lucro y únicamente con el propósito de aprender. Todo el material usado es libre de derechos de autor.',
-        iframeSrc: 'https://drive.google.com/file/d/1_-sBUPp8M_1wnphZo3tSKYjp-P9vuXXH/preview',
-        section: '2024',
-        hasExternalLinks: false,
-        externalLinks: "",
-        isShowingTheProcess: false,
-        process: {
-            sections: {
-                preproduction: {
-                    title: "Idea original",
-                    description: ["El concepto de este projecto era hacer un comercial de un producto no exsistente, basado en otras marcas", 'en este caso, la inspiración principal siendo apple y su estilo tan caracteristico.'],
-                    media: [handPre],
-                },
-                production: {
-                    title: "Producción",
-                    description: ["Este fue principalmente un ejericicio de montaje rapido.",
-                        'Esto usando material de archivo y sonido sin derechos de autor.'],
-                    media: [handPro],
-                },
-                postproduction: {
-                    title: "Detalles",
-                    description: ["Ya los ultimos detalles consistian en pulir y ajustar todo para que quedara lo mas parecido posible."],
-                    media: [handPost],
-                },
-            },
-            sectionFooter: "Todos los clips son de dominio publico, al igual que el sonido.",
-        }
-    },
-    {
-        id: 'p7',
-        title: 'All Digital Media & Kommo',
-        description:
-            'Este es un reel en el cual ayudé a traducir el contenido, dado que el idioma original era inglés. También modifiqué los datos del final del video para que encajaran con la empresa "All Digital Media". Este cambio fue hecho con Adobe Premiere Pro.',
-        iframeSrc: 'https://youtube.com/embed/1WuCEfHVqKE?si=Cb7EJZq1qPUohQoi',
-        section: '2024',
-        hasExternalLinks: false,
-        externalLinks: "",
-        isShowingTheProcess: false,
-        process: {
-            sections: {
-                preproduction: {
-                    title: "Antes de comenzar",
-                    description: ["Este es un trabajo de re edición, por lo que la mayoria del material ya exsiste, por lo que en este pedazo es solo perfilar que tiene que cambiarse."],
-                    media: [kommoPre],
-                },
-                production: {
-                    title: "La producción en si",
-                    description: ["El proceso de edición fue un poco mas sencillo.", 'Me enfoque simplemente en poder traducir los elementos del idioma y agregar los titulos necesarios.'],
-                    media: [kommoPro],
-                },
-                postproduction: {
-                    title: "Revision",
-                    description: ["Ya por parte de la producción es simplemente revisar detalles y retocar.",
-                        'El caso mas notorio es para actualizar la información de contacto, ya que esta dependia del mismo systema.'],
-                    media: [kommoPost],
-                },
-            },
-            sectionFooter: "",
-        }
-    },
-    {
-        id: 'p8',
-        title: 'All Digital Media & Big Commerce',
-        description:
-            'Este es un reel en el cual ayudé a traducir el contenido, dado que el idioma original era inglés. También modifiqué los datos del final del video para que encajaran con la empresa "All Digital Media", donde ajusté la transición final en la que se muestran los datos de la compañía y el logo. Esto fue hecho con Adobe Premiere Pro.',
-        iframeSrc: 'https://www.youtube.com/embed/Bmp48LleZ0E?si=LhpADvwiw_JX4yf-',
-        section: '2023',
-        hasExternalLinks: false,
-        externalLinks: "",
-        isShowingTheProcess: false,
-        process: {
-            sections: {
-                preproduction: {
-                    title: "Antes de comenzar",
-                    description: ["El proceso antes de iniciar era principalmente analizar el video y ver que tenia que cambiar.",
-                        'Asi mismo, tambien era conseguir los elementos necesarios.'],
-                    media: [BigPre],
-                },
-                production: {
-                    title: "Producción como tal",
-                    description: ["Dentro del projecto en si en terminos de textos era simplemente agregar los nuevos logos", 'Sin embargo, lo mas llamativo de este es que me pidieron una version fluida y mas corta del projecto.',
-                        ' muchas secciones me toco crear trasnciones desde 0 he integrarlas de manera dinamica.',
-                        'Esto tanto para el audio como para el video en si.'],
-                    media: [BigPro1, BigPro2, BigPro3],
-                },
-                postproduction: {
-                    title: "Revision final",
-                    description: ["Despues de eso, el proceso se concentra en revisar con el cliente que los datos esten aplicados correctamente y que no se encuentren errores."],
-                    media: [BigPost],
-                },
-            },
-            sectionFooter: "",
-        }
-    },
-    {
-        id: 'p9',
-        title: 'Pre Icfes Con Estilo',
-        description:
-            'Este es un comercial para la institución "Pre Icfes con Estilo", en el cual fui director. Nuestro propósito aquí fue principalmente producir este anuncio tanto para mostrarlo como comercial de YouTube, como también video de introducción para la plataforma institucional. Aquí nos dieron algo de material de archivo, pero el 90% fue grabado y producido por nuestro equipo, el cual estaba conformado por una cinematógrafa, un editor y yo como director.',
-        iframeSrc: 'https://www.youtube.com/embed/NBRRBUN4RIo?si=gGZIcidqop_jK5Q7',
-        section: '2023',
-        hasExternalLinks: false,
-        externalLinks: "",
-        isShowingTheProcess: false,
-        process: {
-            sections: {
-                preproduction: {
-                    title: "Planificaicón y preparación",
-                    description: ["Este projecto en general fue hecho con el fin de presentar una pauta explicativa para la marca de PreIcfes con estilo, un programa de preparación para los examenes gubernamentales.",
-                        'Esto fue hecho con unas bases de marca ya preestablecidos, los cuales teniamos que seguir durante la planificaicón del video y del guion.',
-                        'Asi mismo, era necesario poder confirmar que estuvieran disponibles todas las locaciones necesarias para grabar, al igual que contar con los actores y el equipo necesario.'],
-                    media: [preicfesPre],
-                },
-                production: {
-                    title: "Los dias de grbación",
-                    description: ["Contabamos con 4 dias para grabar, por lo que cada rodaje cuenta.",
-                        'Tuvimos mutiples tomas, con differentes angulos y en diferentes espacios prestados por la universidad, los cuales nos permitieron obtener mucho material para elegir.',
-                        'Nuestro enfoque principal era grabar el audio de manera correcta, al punto que tuvimos una mayor cantidad de archivos de audio de que de video, para que se escuchara lo mejor possible.'],
-                    media: [preicfesPro],
-                },
-                postproduction: {
-                    title: "Material adicional",
-                    description: ["Finalmente, necesitabamos los clips de la plataforma oficial, con el fin de poder mostrar a detalle todas las herramientas disponibles.",
-                        'Esto se logro grabando la pantalla y usando un amuse animado para darle mejor despliegue.'],
-                    media: [preicfesPost],
-                },
-            },
-            sectionFooter: "Cliente principal, PreIcfes con estilo. Cliente subsecuente, la universidad de los Andes.",
-        }
-    },
-    {
-        id: 'p10',
-        title: 'Cantar un Velero',
-        description:
-            'Cortometraje realizado junto a un equipo de tres personas, en el que asumí la dirección y participé activamente en la construcción del guion y la producción.\n' +
-            '\n' +
-            'La obra presenta la historia de un humilde creador de velas que busca reencontrarse emocionalmente con su hijo, a través de una narrativa íntima que explora la conexión humana y la reconciliación.\n' +
-            '\n' +
-            'Fue producido en colaboración con Universidad de los Andes.',
-        iframeSrc: 'https://www.youtube.com/embed/rDiEsuEZWrU?si=6IV62kOXw4F4L1N_',
-        section: '2024',
-        hasExternalLinks: false,
-        externalLinks: "",
-        isShowingTheProcess: false,
-        process: {
-            sections: {
-                preproduction: {
-                    title: "Preproducción",
-                    description: ["Para este projecto teniamos que explorar la vida de un personaje y de ahi experimentar para sacar un cortometraje.",
-                        'Debido a esto, estuvimos entrevistando y conociendo a personas por semanas.',
-                        'Esto hasta llegar a nuestro personaje "Alejandro", quien muestra una vida muy humilde haciendo velas.',
-                        'Como esta primera instancia era de experimentación, se grabo mucho material que no termino en el corto final con diferentes posibilidades del desarrollo.',
-                        'Sin embargo, esto no significa que no tuvieramos un guion. Empezabamos a generar una estructora con base a las partes que si y no funicionaran.'],
-                    media: [CantarPre1, CantarPre2],
-                },
-                production: {
-                    title: "Rodando la historia en si",
-                    description: ["Dentro de los dias de grabación, ya teniamos que disponer era del tiempo de Alejandro en el taller.",
-                        'Los clips de el dentro del taller no eran problema, ya que se grababa su dia a dia.',
-                        'Sin embargo, ya pedirle que saliera a otros espacios costaba mas trabajo.',
-                        'Llego un punto donde no quiso grabar mas y nos tuvimos que limitar al material que teniamos.',
-                        'Debido a esto, incluso agregamos clips de personajes alternos para complementar la narrativa.'],
-                    media: [CantarPro1, CantarPro2],
-                },
-                postproduction: {
-                    title: "Ajustes Finales",
-                    description: ["Dentro de la post producción, con el equipo decidimos cambiar de angulo y enfocarnos mas en el hijo, usando el mismo estilo de clips",
-                        'Adicionalmente, tambien teniamos que retocar la luz, pulir el audio, y hacer que todo se viera lo mejor posible para la fecha final.'],
-                    media: [CantarPost],
-                },
-            },
-            sectionFooter: "",
-        }
-    },
-    {
-        id: 'p11',
-        title: 'Pirata vs Samurai',
-        description:
-            'Este es un proyecto de rotoscopia en el cual quise experimentar y fue una de mis primeras veces usando Adobe Photoshop. Este fue hecho usando dicho programa en combinación con Adobe Premiere Pro. El sonido fue de stock y me demoré 2 semanas en producirlo entre grabar los fotogramas originales, hacer la rotoscopia y la postproducción.',
-        iframeSrc: 'https://www.youtube.com/embed/QvqdybkfV2g?si=iCi8a9ctJ5-mHg9p',
-        section: '2022',
-        hasExternalLinks: false,
-        externalLinks: "",
-        isShowingTheProcess: false,
-        process: {
-            sections: {
-                preproduction: {
-                    title: "Concepto inicial",
-                    description: ["Dentro de este projecto, lo que se buscaba era tomar un video y convertirlo en algo diferente.",
-                        'Adicionalmente a esto, era mi primera vez haciendo rotoscopia, por lo que tenia que seguir el trazo muy firme.',
-                        'Este projecto dio inicio a una de las tecnicas que mas he usado para la animación.'],
-                    media: [samuraiPre],
-                },
-                production: {
-                    title: "El proceso en si",
-                    description: ["La idea era empezar de a poco, y con base en eso generar todos los frames.",
-                        'Aqui estamos hablando de un clip de 5 segundos, a 25 frames por segundo, el cual esta en loop constantemente para darle mejor sensacion de movimiento.',
-                        'Todo esto, añadiento tambien la creación de los fondos y del coloreado del lineart.'],
-                    media: [samuraiPro],
-                },
-                postproduction: {
-                    title: "Proceso final con premiere",
-                    description: ["Usando premiere, pude agregar mas movimiento a los elementos a trav'es de animación vectorial, la cual esta completamente hecha en el mismo programa.",
-                        'Durante ese ultimo proceso, tambien se hace el audio y el tema de retoque de color.'],
-                    media: [samuraiPost],
-                },
-            },
-            sectionFooter: "",
-        }
-    },
-    {
-        id: 'p12',
-        title: 'SALESmanago y Yandex ADS',
-        description:
-            'Este fue un proyecto en el que participé como editor, encargado de retocar el video de animación original, agregando logotipos y combinándolos de manera eficiente con las transiciones ya existentes. Además, integré todos los elementos en un corto período de tiempo de forma efectiva. Este proyecto fue editado utilizando Adobe Premiere Pro.',
-        iframeSrc: 'https://www.youtube.com/embed/gw3qSyxWISw?si=kQbA5_IqMW0bBG6G',
-        section: '2024',
-        hasExternalLinks: false,
-        externalLinks: "",
-        isShowingTheProcess: false,
-        process: {
-            sections: {
-                preproduction: {
-                    title: 'Preproducción',
-                    description: ["Este projecto tenia dos versiones, por lo que el proceso para ambos videos en preproducción fue simillar.",
-                        'Consistia en encontrar los logos para incluirlos, ademas de indentificar que elementos tcada añadir.',
-                        'Esta es la V2.'],
-                    media: [YandexPre1, YandexPre2],
-                },
-                production: {
-                    title: "Producción",
-                    description: ["Para este trabajo no me pidieron nada complejo, que consistia en añadir los logos y traducir los elementos del video.",
-                        'Esto claramente sin afectar el video original y su profesionalismo. '],
-                    media: [YandexPro1, YandexPro2],
-                },
-                postproduction: {
-                    title: "Retoques finales",
-                    description: ["El cierre es la revision de ambos videos, tanto en calidad, como en version para tener consistencia con el mismo."],
-                    media: [YandexPost],
-                },
-            },
-            sectionFooter: "",
-        }
-    },
-    {
-        id: 'p13',
-        title: 'AllDigital, SALESmanago y Yandex ADS',
-        description:
-            'Este es un proyecto en el cual mi rol fue como editor y traductor del video. Para el contenido principal, me encargué de agregar los logotipos de la marca e integrarlos de manera armoniosa con el material ya existente. Además, traduje el video, que originalmente estaba en inglés. Todo el trabajo fue realizado en un corto período de tiempo utilizando Adobe Premiere Pro.',
-        iframeSrc: 'https://www.youtube.com/embed/gw3qSyxWISw?si=QUrFat9nCfqdG1lr',
-        section: '2024',
-        hasExternalLinks: false,
-        externalLinks: "",
-        isShowingTheProcess: false,
-        process: {
-            sections: {
-                preproduction: {
-                    title: 'Preproducción',
-                    description: ["Este projecto tenia dos versiones, por lo que el proceso para ambos videos en preproducción fue simillar.",
-                        'Consistia en encontrar los logos para incluirlos, ademas de indentificar que elementos tcada añadir.',
-                        'Esta es la V1.'],
-                    media: [YandexPre1, YandexPre2],
-                },
-                production: {
-                    title: "Producción",
-                    description: ["Para este trabajo no me pidieron nada complejo, que consistia en añadir los logos y traducir los elementos del video.",
-                        'Esto claramente sin afectar el video original y su profesionalismo. '],
-                    media: [YandexPro1, YandexPro2],
-                },
-                postproduction: {
-                    title: "Retoques finales",
-                    description: ["El cierre es la revision de ambos videos, tanto en calidad, como en version para tener consistencia con el mismo."],
-                    media: [YandexPost],
+                    title: "Presentación",
+                    description: [
+                        'Para presentar la propuesta creativa, se desarrolló un concepto de presentación sólido y coherente.',
+                        'El objetivo era demostrar un ciclo narrativo completo: el inicio, el conflicto y el desenlace.'
+                    ],
+                    media: [PostVilla1, PostVilla2],
                 },
             },
             sectionFooter: "",
@@ -567,566 +174,460 @@ export const AnimationProjects: Project[] = [
     },
 ]
 
-export const AnimationProjectsEn: Project[] = [
+export const UIExpEN: Project[] = [
     {
         id: 'p1',
-        title: 'The Yellow Family Without Copyright',
+        title: 'Base Project - Web Portfolio',
         description:
-            'This is a "Couch Gag" style project that combines two intro sequences from television series originally aired on the network formerly known as "FOX". The project was created exclusively for educational purposes and without any type of financial compensation. The animation was completed over the course of 2 weeks using Adobe Photoshop and Adobe After Effects.',
-        iframeSrc: 'https://www.youtube.com/embed/ffGX5rWSqyM',
+            'This project was developed in 2026, following multiple previous versions built with different tools. This portfolio was created using React and hosted on GitHub Pages. It reflects my evolution as a developer, as well as my level of organization and personal growth over the years.',
+        isProjectDeployed: false,
+        iframeSrc: '',
+        imageSrc: IMGPort,
+        section: '2026',
+        hasExternalLinks: true,
+        externalLinks: "https://github.com/neondsilvam/Web_Framework_portfolio",
+        isShowingTheProcess: false,
+        process: {
+            sections: {
+                preproduction: {
+                    title: "Initial Idea",
+                    description: [
+                        "My digital portfolio has gone through various tools and processes, from building it with existing platforms like Adobe Express, to coding it from scratch with vanilla HTML and CSS on servers like Glitch.",
+                        "However, once I understood how to grow as a frontend developer and began advancing with React, I was able to formalize a more structured and professional project.",
+                        "This portfolio not only serves as a base to showcase my other projects, but also as a demonstration of my learning potential and personal growth."
+                    ],
+                    media: [PrePort2, PrePort1],
+                },
+                production: {
+                    title: "Current Development",
+                    description: [
+                        'The initial concept was to build the navigable page structure first, then the language system, and finally the content itself.',
+                        'All information needed to be available in both languages, since some projects were only documented in one of the two.',
+                        'The goal was to create reusable interfaces and variables within each section module, enabling dynamic language switching throughout the app.',
+                        'Similarly, the content required its own version in both English and Spanish; and while this involves repetitive logic, both descriptions are unique and therefore necessary.',
+                        'This structure was also divided by module and by individual project.',
+                        'Note: I am aware that this data should ideally be stored in a .env file, but in this particular case it does not represent a significant security risk.'
+                    ],
+                    media: [ProPort],
+                },
+                postproduction: {
+                    title: "Polishing the Details",
+                    description: [
+                        "In the final stage, the focus shifted to organizing content, running tests, and ensuring everything was in its proper place.",
+                        "During this phase, sounds were added, visual details were refined, and the overall coherence of the project was reviewed.",
+                        "All of this was done with the goal of delivering the project in the best possible state.",
+                        "It is worth noting that this is not the end of the project, it will continue to evolve as my skills improve."
+                    ],
+                    media: [PostPort],
+                },
+            },
+            sectionFooter: "All web and visual content is original and self-authored, unless otherwise stated.",
+        }
+    },
+    {
+        id: 'p2',
+        title: 'Web Project - Gaming Platform',
+        description:
+            'This web application, developed in 2026 as a class project, was built using React as its foundation. ' +
+            'It connects directly to a database through Google Firebase, which stores gameplay data and registers it on the leaderboard. ' +
+            'It is also integrated with a Unity-based game, a recreation of the classic "Flappy Bird." ' +
+            'The platform features Google authentication, metadata access via a Python script, and an admin panel managed through Firebase.',
+        isProjectDeployed: true,
+        iframeSrc: 'https://pg29juliandsilva.github.io/CloudComputingGameWebApp/',
+        imageSrc: '',
+        section: '2026',
+        hasExternalLinks: true,
+        externalLinks: "https://github.com/pg29JulianDSilva/CloudComputingGameWebApp",
+        isShowingTheProcess: false,
+        process: {
+            sections: {
+                preproduction: {
+                    title: "Initial Idea",
+                    description: [
+                        'As a learning project, this one had limited creative freedom in terms of design and functionality.',
+                        'The initial goal was simply to establish a working connection between the web platform and the previously developed game.',
+                        'Beyond understanding the basic functionality, the process was also about developing the logical thinking required to understand how the internal systems should work together.'
+                    ],
+                    media: [PreWeb],
+                },
+                production: {
+                    title: "The Development Process",
+                    description: [
+                        'Throughout this project, it was necessary to implement different elements across multiple coding languages.',
+                        'First, there was the Unity game written in C#, exported as a web application and deployed via GitHub Pages.',
+                        'Then came the web platform, built with React and TypeScript, connected to Firebase on the backend.',
+                        'Finally, an integration module was developed to bridge both environments, enabling a seamless and consistent flow of data between them.'
+                    ],
+                    media: [ProWeb],
+                },
+                postproduction: {
+                    title: "Telemetry",
+                    description: [
+                        'In the final stage, the focus was not on polishing visual details, but on implementing the system telemetry.',
+                        'This included the admin panel features, regulated through Firebase and accessible only with the appropriate credentials (more details available on GitHub).',
+                        'The system uses the collected data to display personalized player statistics, presented as a configurable data analytics dashboard.'
+                    ],
+                    media: [PostWeb],
+                },
+            },
+            sectionFooter: "",
+        }
+    },
+    {
+        id: 'p3',
+        title: 'Villarica - P5.js',
+        description:
+            'This project was developed for the "SENDA" research group at Universidad de los Andes, Colombia. ' +
+            'Its main purpose was to build a journalistic narrative expressed through a creative coding piece. ' +
+            'The central focus was to make the user feel what the survivors experienced, from their different perspectives, during one of the most tragic events in Colombian history. ' +
+            'It was built using P5.js, a JavaScript framework focused on creative programming, and supported by the ml5 library for on-screen motion capture.',
+        isProjectDeployed: true,
+        iframeSrc: 'https://editor.p5js.org/neon.d.silvam/full/Ob_nfUxlD',
+        imageSrc: '',
         section: '2025',
-        hasExternalLinks: false,
-        externalLinks: "",
+        hasExternalLinks: true,
+        externalLinks: "https://editor.p5js.org/neon.d.silvam/sketches/Ob_nfUxlD",
+        isShowingTheProcess: false,
+        process: {
+            sections: {
+                preproduction: {
+                    title: "Initial Concept",
+                    description: [
+                        'In brief, the tragedy of Villarica is one of the most violent and painful events in Colombian history.',
+                        'It brought death, forced displacement, and abandonment; and marks the origin of one of the most dangerous armed groups in the country.',
+                        'This was not a subject that could be approached lightly; it required deep and rigorous research.',
+                        'It was necessary to understand the details of the event: who the victims were, how they were affected, and what their experience was like.',
+                        'Ultimately, I chose to tell the story of Ana María Molina, a young woman who survived the bombing of her village by hiding in a hollow beneath her home.',
+                        'The intention was to tell her story with the utmost respect, while also conveying the pain and trauma she endured.',
+                        'This stage also required technical research: understanding how the P5.js library works and gathering the resources needed for the project.'
+                    ],
+                    media: [PreVilla1, PreVilla4, PreVilla2, PreVilla3],
+                },
+                production: {
+                    title: "Building the Piece",
+                    description: [
+                        'With a solid plan in place, the development process became more direct and structured.',
+                        'We used P5.js to build a scene system that advances or rewinds based on the user\'s decisions.',
+                        'Everything is controlled through motion capture, which analyzes the video feed in real time and identifies the user\'s hands through a set of specific reference points.',
+                        'The only exception is the start button, which is controlled by the mouse as a safeguard to prevent unintended early activation.'
+                    ],
+                    media: [ProVilla1, ProVilla2],
+                },
+                postproduction: {
+                    title: "Presentation",
+                    description: [
+                        'To present the creative proposal, a solid and coherent presentation concept was developed.',
+                        'The goal was to demonstrate a complete narrative cycle: the beginning, the conflict, and the resolution.'
+                    ],
+                    media: [PostVilla1, PostVilla2],
+                },
+            },
+            sectionFooter: "",
+        }
+    },
+]
+
+export const GameExpES: Project[] = [
+    {
+        id: 'p1',
+        title: '(Des)Conectado - Un juego fuera del dispositivo',
+        description:
+            'Este proyecto fue desarrollado en colaboración con la Universidad de los Andes. ' +
+            'Presenta el DEMO de una novela gráfica interactiva para dispositivos móviles Android, centrada en Ashley, una joven con nomofobia que se pierde en un bosque mientras su familia acampa y debe encontrar el camino de regreso. ' +
+            'Este proyecto representa mi primer acercamiento profesional a Unity y mi inicio formal en el área de programación, ya que con anterioridad únicamente había realizado ejercicios menores.',
+        isProjectDeployed: false,
+        iframeSrc: '',
+        imageSrc: DesConectado,
+        section: '2025',
+        hasExternalLinks: true,
+        externalLinks: 'https://drive.google.com/file/d/1n4myrYNwOT26SZzVxjacrb08SkOo9OlP/view?usp=sharing',
+        isShowingTheProcess: false,
+        process: {
+            sections: {
+                preproduction: {
+                    title: "Proceso de creación y diseño",
+                    description: [
+                        'El concepto inicial surgió de la idea de crear un juego que motivara a las personas a reducir la nomofobia, también conocida como el miedo a estar desconectado del mundo digital.',
+                        'Esto bajo el objetivo de fomentar hábitos responsables en el consumo de aplicaciones y tecnología.',
+                        'Con esto en mente, la preproducción se enfocó en construir la narrativa, investigar sobre los sistemas necesarios y generar un diseño sólido.',
+                        'En cuanto a la narrativa, el trabajo inicial consistió en definir los personajes, especialmente la protagonista: sus motivaciones, sus ambiciones y la manera de materializarlas.',
+                        'La investigación se orientó hacia la exploración de C#, el entorno de Unity y su adaptación para dispositivos móviles.',
+                        'Finalmente, se procedió a generar el concepto de diseño visual, construir el wireframe y establecer la base del frontend de la aplicación.'
+                    ],
+                    media: [PreDes1, PreDes2, PreDes3],
+                },
+                production: {
+                    title: "Producción de la aplicación",
+                    description: [
+                        'Como único desarrollador de este proyecto, fui responsable de comprender y crear todos los aspectos del juego.',
+                        'En cuanto al arte, mediante el uso de referentes reales y la construcción de elementos combinados, logré generar paneles sólidos para la narrativa, siguiendo fielmente el estilo de una novela gráfica.',
+                        'Esto incluye todos los personajes, los objetos interactivos, la interfaz de usuario, los fondos y las texturas.',
+                        'Desde el ámbito del código, el trabajo se centró principalmente en el control de la interfaz y la narrativa, gestionando el avance de los eventos a través de puntos específicos dentro del nivel.',
+                        'Los aspectos más complejos se relacionaron con la persistencia de datos mediante PlayerPrefs, los minijuegos, cada uno con su mecánica única, y el sistema general de control del juego.',
+                        'Como característica adicional, la aplicación contaba con un sistema que leía el tiempo de uso del teléfono y lo empleaba como penalización para otorgar una segunda oportunidad al jugador.',
+                        'El resto de los detalles consistió principalmente en implementar el audio, las transiciones entre escenas y las opciones de configuración.',
+                        'Este proceso no fue lineal; requirió múltiples prototipos y versiones hasta alcanzar el demo actual.'
+                    ],
+                    media: [ProDes1, ProDes2, ProDes3],
+                },
+                postproduction: {
+                    title: "Playtest y correcciones",
+                    description: [
+                        'Una vez finalizado el demo, se inició la fase de pruebas para observar la reacción de los usuarios.',
+                        'Durante este proceso identifiqué un error de diseño: no realicé pruebas durante la producción misma.',
+                        'Esta experiencia me permitió entender que era necesaria una mayor investigación para comprender al usuario objetivo, además de mejorar la optimización de varios sistemas.',
+                        'Dado que este proyecto fue desarrollado en colaboración con la universidad, no me está permitido continuarlo por el momento.',
+                        'No obstante, esta experiencia me dejó clara mi capacidad de desarrollo y la dirección hacia la cual puedo orientarla.',
+                        'Pueden probar el demo escaneando el código QR o accediendo al enlace del proyecto.'
+                    ],
+                    media: [PostDes1, PostDes2],
+                },
+            },
+            sectionFooter: "Agradecimientos especiales a la Universidad de los Andes por la colaboración.",
+        }
+    },
+    {
+        id: 'p2',
+        title: 'Lista de Tareas',
+        description: 'Este es un proyecto de menor escala desarrollado con Android Studio. ' +
+            'Replica la lógica de una lista de tareas con almacenamiento en una base de datos Firebase, la cual es responsiva según el usuario y permite compartir tareas entre distintos usuarios. ' +
+            'El propósito principal fue de aprendizaje, tanto con Android Studio como entorno de desarrollo como con Kotlin como lenguaje de programación.',
+        isProjectDeployed: true,
+        iframeSrc: 'https://www.youtube.com/embed/J2kiRcF9dIU?si=YJMyYrTy2aoj2F_t',
+        imageSrc: '',
+        section: '2026',
+        hasExternalLinks: true,
+        externalLinks: "https://github.com/neondsilvam/Task_manager_App_JDS",
+        isShowingTheProcess: false,
+        process: {
+            sections: {
+                preproduction: {
+                    title: "Concepto del proyecto",
+                    description: [
+                        'Este era un proyecto de alcance acotado, al cual se le quiso dar una base sólida desde su desarrollo inicial.',
+                        'Primero se definió el diseño, estableciendo que la aplicación requería una página de usuario, un menú principal con función de reciclaje de vistas, una plantilla para editar tareas y otra para visualizarlas.',
+                        'Esto, sumado al aprendizaje de Kotlin y del entorno de desarrollo.'
+                    ],
+                    media: [preTaskManager],
+                },
+                production: {
+                    title: "Desarrollo del proyecto",
+                    description: [
+                        'La experiencia de desarrollarlo me brindó una perspectiva clara sobre los sistemas de gestión de tareas dentro de un dispositivo móvil.',
+                        'Principalmente, aprendí a utilizar interfaces para generar una base capaz de registrar y mostrar todas las tareas sin sobrecargar la memoria del dispositivo.',
+                        'Además, fue la primera vez que integré una aplicación con Firebase, lo que me permitió utilizar una base de datos compartida entre todos los usuarios.',
+                        'En el backend, la información almacenada incluía el usuario propietario, los usuarios invitados, la tarea, las subtareas y su estado de completitud.'
+                    ],
+                    media: [proTaskManager],
+                },
+                postproduction: {
+                    title: "Detalles finales",
+                    description: [
+                        'Dentro del desarrollo final, las pruebas son un paso fundamental, dado que es necesario considerar la diversidad de hardware existente en la actualidad.',
+                        'Fue necesario probar la aplicación en múltiples dispositivos para determinar el límite de compatibilidad, ajustar la resolución según cada pantalla, verificar la consistencia de los colores y evaluar otros aspectos relevantes.',
+                        'Esto, además de comprobar que el diseño fuera adecuado y no generara conflictos con la experiencia del usuario.'
+                    ],
+                    media: [postTaskManager],
+                },
+            },
+            sectionFooter: "",
+        }
+    },
+    {
+        id: 'p3',
+        title: 'Cocktail App - Learning to prepare',
+        description:
+            'Este es un proyecto desarrollado con React Native, que consiste en una aplicación web con acceso a una amplia variedad de cócteles para preparar, indicando los ingredientes, los pasos y el tiempo necesario para su elaboración. ' +
+            'El proyecto se conecta con Firebase para verificar que los usuarios sean mayores de edad, accede a una API gratuita con información detallada de cada cóctel e incluso utiliza el acelerómetro del dispositivo para simular el proceso de mezcla de la bebida.',
+        isProjectDeployed: true,
+        iframeSrc: 'https://snack.expo.dev/@pg29julians/cocktail-app---final',
+        imageSrc: '',
+        section: '2026',
+        hasExternalLinks: true,
+        externalLinks: "https://github.com/pg29JulianDSilva/Cocktail-app",
+        isShowingTheProcess: false,
+        process: {
+            sections: {
+                preproduction: {
+                    title: "Diseño y planeación",
+                    description: [
+                        'La idea inicial era aprovechar la base de datos disponible para generar una aplicación entretenida y útil para el usuario.',
+                        'El enfoque se dirigió principalmente hacia usuarios mayores de edad que quisieran tener a la mano una guía para preparar bebidas en fiestas o eventos sociales.',
+                        'La interfaz presenta un estilo sencillo e intuitivo, que compacta la información de manera eficiente sin excluir a ningún tipo de usuario.'
+                    ],
+                    media: [preCocktail],
+                },
+                production: {
+                    title: "Desarrollo del proyecto",
+                    description: [
+                        'Al estar desarrollado con React Native, la lógica del proyecto sigue los mismos principios del framework.',
+                        'Esta consiste en crear pequeños módulos que dan forma a la aplicación en su conjunto.',
+                        'A esto se suma el sistema de navegación nativo del framework, que permite crear pestañas para orientar al usuario de manera más clara y eficiente.',
+                        'En este punto ya contaba con experiencia previa trabajando con JavaScript y React como framework, lo que facilitó considerablemente el proceso de desarrollo.'
+                    ],
+                    media: [proCocktail],
+                },
+                postproduction: {
+                    title: "Refinamiento del proyecto",
+                    description: [
+                        'Este proyecto aún no está finalizado, por lo que quedan detalles pendientes por resolver.',
+                        'Sin embargo, existen aspectos que también valdrá la pena refactorizar, como el uso de módulos internos o la integración de contextos para evitar el prop drilling dentro del programa.'
+                    ],
+                    media: [postCocktail],
+                },
+            },
+            sectionFooter: "",
+        }
+    },
+]
+
+export const GameExpEN: Project[] = [
+    {
+        id: 'p1',
+        title: '(Dis)Connected - An Off-Device Game',
+        description:
+            'This project was developed in collaboration with Universidad de los Andes. ' +
+            'It presents the DEMO of an interactive graphic novel for Android mobile devices, centered on Ashley, a young woman with nomophobia who gets lost in a forest while her family goes camping and must find her way back. ' +
+            'This project represents my first professional approach to Unity and my formal entry into software development, as I had previously only completed minor exercises.',
+        isProjectDeployed: false,
+        iframeSrc: '',
+        imageSrc: DesConectado,
+        section: '2025',
+        hasExternalLinks: true,
+        externalLinks: 'https://drive.google.com/file/d/1n4myrYNwOT26SZzVxjacrb08SkOo9OlP/view?usp=sharing',
+        isShowingTheProcess: false,
+        process: {
+            sections: {
+                preproduction: {
+                    title: "Creation and Design Process",
+                    description: [
+                        'The initial concept emerged from the idea of creating a game that would motivate people to reduce nomophobia, the fear of being disconnected from the digital world.',
+                        'This was guided by the objective of encouraging responsible consumption habits around applications and technology.',
+                        'With this in mind, pre-production focused on building the narrative, researching the necessary systems, and establishing a solid design foundation.',
+                        'Regarding the narrative, early work involved defining the characters; especially the protagonist, including her motivations, ambitions, and the means to achieve them.',
+                        'Research was directed toward exploring C#, the Unity environment, and its adaptation for mobile devices.',
+                        'Finally, the visual design concept was developed, the wireframe was constructed, and the frontend of the application was laid out.'
+                    ],
+                    media: [PreDes1, PreDes2, PreDes3],
+                },
+                production: {
+                    title: "Application Production",
+                    description: [
+                        'As the sole developer of this project, I was responsible for understanding and creating every aspect of the game.',
+                        'Regarding the art, by using real references and combining design elements, I was able to generate solid panels for the narrative in the style of a traditional graphic novel.',
+                        'This includes all characters, interactive objects, the user interface, backgrounds, and textures.',
+                        'On the code side, the work focused primarily on UI and narrative control, managing event progression through specific trigger points within each level.',
+                        'The most complex aspects involved persistent data management using PlayerPrefs, the minigames, each with its own unique mechanic, and the overall game control system.',
+                        'As an additional feature, the application included a system that tracked the phone\'s screen-on time and used it as a penalty mechanic to grant the player a second chance.',
+                        'The remaining details consisted primarily of implementing audio, scene transitions, and configuration options.',
+                        'This process was not linear; it required multiple prototypes and iterations to arrive at the current demo.',
+                    ],
+                    media: [ProDes1, ProDes2, ProDes3],
+                },
+                postproduction: {
+                    title: "Playtesting and Fixes",
+                    description: [
+                        'Once the demo was complete, the testing phase began to observe how users interacted with it.',
+                        'During this process, I identified a design mistake: I had not conducted tests throughout the production phase itself.',
+                        'This experience made it clear that further research was needed to better understand the target user, in addition to improving the optimization of several systems.',
+                        'Since this project was developed in collaboration with the university, I am not permitted to continue it at this time.',
+                        'Nevertheless, this experience gave me a clear sense of my development potential and the direction in which I can channel it.',
+                        'You can try the demo by scanning the QR code or accessing the project link.'
+                    ],
+                    media: [PostDes1, PostDes2],
+                },
+            },
+            sectionFooter: "Special thanks to Universidad de los Andes for the collaboration.",
+        }
+    },
+    {
+        id: 'p2',
+        title: 'Task Manager App',
+        description: 'This is a smaller-scale project built with Android Studio. ' +
+            'It replicates the logic of a task list application with storage in a Firebase database, which is user-responsive and allows tasks to be shared between different users. ' +
+            'The main purpose was educational, both in terms of Android Studio as a development environment and Kotlin as a programming language.',
+        isProjectDeployed: true,
+        iframeSrc: 'https://www.youtube.com/embed/J2kiRcF9dIU?si=YJMyYrTy2aoj2F_t',
+        imageSrc: '',
+        section: '2026',
+        hasExternalLinks: true,
+        externalLinks: "https://github.com/neondsilvam/Task_manager_App_JDS",
         isShowingTheProcess: false,
         process: {
             sections: {
                 preproduction: {
                     title: "Project Concept",
                     description: [
-                        "This is a 2-week project with the challenge of combining two intros from well-known series. Because of this, the development focuses on experimenting with animation and showcasing its visual potential.",
-                        "My main goal was to apply the original artistic style of 'The Simpsons' while preserving the fast-paced rhythm of Modern Family.",
-                        "After a brainstorming session, I was able to develop the concept further in order to begin the animation.",
-                        "References:",
-                        "Groening, M. (Creator). (1989–present). The Simpsons [Television series].",
-                        "Levitan, S., & Lloyd, C. (Creators). (2009–2020). Modern Family [Television series]."
+                        'This was a project with a limited scope, to which we wanted to add a solid foundation from the very beginning.',
+                        'The first step was to define the design, establishing that the application required a user page, a main menu with view recycling functionality, a template for editing tasks, and another for displaying them.',
+                        'This was accompanied by the goal of learning Kotlin and the development environment.'
                     ],
-                    media: [simpsonReference, modernReference],
+                    media: [preTaskManager],
                 },
                 production: {
-                    title: "The Production Process",
+                    title: "Development",
                     description: [
-                        "The process itself was divided into three sections: background creation, traditional animation, and vector animation.",
-                        "First, the background creation, which refers to all the scenes that would later be animated as vectors in Adobe After Effects — including the images of the grandfather and the aunts.",
-                        "Within the traditional animation, I focused on an 'in-between' style, subdividing each frame in half in order to make the family's sitting movement as fluid as possible.",
-                        "Finally, the vector animation combines the traditionally animated clips with the static background images. At the same time, the timeline is configured so that they have a progressive zooming-out effect. For this process, it was important that the images were vector graphics so that their quality would not degrade during the process."
+                        'The development experience gave me a clear perspective on task management systems within a mobile device.',
+                        'In particular, I learned how to use interfaces to build a foundation capable of registering and displaying all tasks without overloading the device\'s memory.',
+                        'Additionally, this was the first time I integrated an application with Firebase, which allowed me to use a shared database across all users.',
+                        'On the backend, the stored information included the owner user, invited users, the task itself, subtasks, and their completion status.'
                     ],
-                    media: [CouchPro1, CouchPro2, CouchPro3],
+                    media: [proTaskManager],
                 },
                 postproduction: {
                     title: "Final Details",
                     description: [
-                        "Within the project's development, it is not only the animation that is produced, but the entirety of the story being told.",
-                        "Therefore, during this stage, sounds are added, details are polished, and everything is reviewed to make sure it is in its proper place.",
-                        "All with the goal of concluding the project in the best way possible."
+                        'Testing is a fundamental step in the final stage of development, given the wide variety of hardware available today.',
+                        'It was necessary to test the application on multiple devices to determine compatibility limits, adjust resolution per screen, verify color consistency, and evaluate other relevant aspects.',
+                        'This also included confirming that the design was appropriate and did not create conflicts with the user experience.'
                     ],
-                    media: [CouchPost],
+                    media: [postTaskManager],
                 },
             },
-            sectionFooter: "This project does not infringe any copyright and gives full credit to the original concept's respective authors.",
-        }
-    },
-    {
-        id: 'p2',
-        title: 'Rotoscoping Experiment',
-        description:
-            'This project is an experimental rotoscoping exercise created using Adobe Photoshop, with the goal of practicing animation techniques over live-action footage. The project was developed using clips from the feature film "Spider-Man 3" strictly for educational purposes and without any financial compensation. The animation was completed in 1 week using Adobe Photoshop.',
-        iframeSrc: 'https://www.youtube.com/embed/bazyWtN-WX0',
-        section: '2025',
-        hasExternalLinks: false,
-        externalLinks: "",
-        isShowingTheProcess: false,
-        process: {
-            sections: {
-                preproduction: {
-                    title: "Initial Concepts",
-                    description: [
-                        "This was a short-timeframe exercise aimed at artistically transforming an existing clip in order to give it a new meaning.",
-                        "Since it had a brief and purely experimental purpose, the focus was less on planning and more on understanding the execution.",
-                        "References:",
-                        "Raimi, S. (Director). (2007). Spider-Man 3 [Film].",
-                        "Tesfaye, A. (2019). Blinding Lights [Song]. On After Hours. XO Records; Republic Records."
-                    ],
-                    media: [SpidermanPre],
-                },
-                production: {
-                    title: "Creation Process",
-                    description: [
-                        "The initial idea was simply to trace each frame with a different color.",
-                        "Therefore, the process focused on using a frame-by-frame tracking approach in order to keep the actions as unified as possible.",
-                        "It is also worth noting that the animation is divided between characters, backgrounds, and effects; each of which is further subdivided into lineart and coloring layers."
-                    ],
-                    media: [SpidermanPro1, SpidermanPro2],
-                },
-                postproduction: {
-                    title: "Final Details",
-                    description: [
-                        "In this last stage, Premiere and After Effects were used to enhance the animation, create the offset effect, and align the different layers.",
-                        "The audio was also retouched and final text details were added to provide a bit more context."
-                    ],
-                    media: [SpidermanPost],
-                },
-            },
-            sectionFooter: "This project does not infringe any copyright and gives full credit to the original concept's respective authors.",
+            sectionFooter: "",
         }
     },
     {
         id: 'p3',
-        title: 'Deraíz',
+        title: 'Cocktail App - Learning to Prepare',
         description:
-            'This project was developed in collaboration with the Universidad de los Andes. Its purpose was to create an artistic visual expression movement by combining analog and digital techniques. It was a collaborative team effort where all members worked toward a shared creative objective. The animation was produced in authorized graffiti spaces and later composited in Photoshop. Original publication:',
-        iframeSrc: 'https://drive.google.com/file/d/101m-0jSkYCH9VfXZf97SYLNLjBeLZI6Z/preview',
-        section: '2025',
+            'This is a project developed with React Native, consisting of a web application that provides access to a wide variety of cocktails to prepare, including ingredients, preparation steps, and the time required for each. ' +
+            'The project connects with Firebase to verify that users are of legal drinking age, accesses a free API with detailed information on each cocktail, and even uses the device\'s accelerometer to simulate the drink mixing process.',
+        isProjectDeployed: true,
+        iframeSrc: 'https://snack.expo.dev/@pg29julians/cocktail-app---final',
+        imageSrc: '',
+        section: '2026',
         hasExternalLinks: true,
-        externalLinks: "https://www.instagram.com/reel/DKHhPdvN8NO/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==",
+        externalLinks: "https://github.com/pg29JulianDSilva/Cocktail-app",
         isShowingTheProcess: false,
         process: {
             sections: {
                 preproduction: {
-                    title: "Project Planning",
+                    title: "Design and Planning",
                     description: [
-                        "This is easily one of the most ambitious projects I have had the opportunity to work on.",
-                        "The initial concept was to create an animation based on two opposing topics, in this case, nature and industrialization.",
-                        "We also wanted to generate a disruption within the system, creating an impact that could reach the public space.",
-                        "That is where the concept of graffiti and muralism came from.",
-                        "Since this was a collaborative effort, we decided to divide the project, with each member contributing a small section that would later be joined into the final piece.",
-                        "The idea was to generate a design that would connect with another person's, creating an animated 'Exquisite Corpse'.",
-                        "This included making digital tests, prototypes, and drafts before the production day."
+                        'The initial idea was to leverage the available database to build an entertaining and useful application for the user.',
+                        'The focus was directed primarily toward adult users who wanted a handy guide for preparing drinks at parties or social events.',
+                        'The interface features a simple and intuitive style that presents information compactly and efficiently without excluding any type of user.'
                     ],
-                    media: [deraizPre1, deraizPre2, deraizPre3],
+                    media: [preCocktail],
                 },
                 production: {
-                    title: 'The "Animation" Days',
+                    title: "Project Development",
                     description: [
-                        "The process was divided into two dates: the graffiti day and the connection day.",
-                        "On the graffiti day, we all gathered in a pre-agreed space where we each painted our frames by hand before photographing them.",
-                        "Due to the nature of the process, it was necessary to animate it frame by frame in order to verify on the spot that the fluidity was adequate.",
-                        "This was done collaboratively so that we could help one another.",
-                        "The second part of the process involved compositing the photos into each person's video.",
-                        "For this, we used Photoshop to correctly adjust the images and fix any gaps created by the layer when aligning the grid.",
-                        "This was done using reference points placed on each frame to ensure the scale remained intact.",
-                        "CLARIFICATION:",
-                        "The spaces used for this process were authorized for this purpose. Special thanks to Universidad de los Andes for providing the space."
+                        'Being built with React Native, the project\'s logic follows the same principles as the framework.',
+                        'This consists of creating small modules that collectively shape the application.',
+                        'This is complemented by the framework\'s native navigation system, which allows the creation of tabs to guide users in a clear and efficient manner.',
+                        'At this stage, I already had prior experience working with JavaScript and React as a framework, which considerably streamlined the development process.'
                     ],
-                    media: [deraizPro1, deraizPro2, deraizPro3],
+                    media: [proCocktail],
                 },
                 postproduction: {
-                    title: "Final Details",
+                    title: "Project Refinement",
                     description: [
-                        "During this stage, we had a project manager responsible for assembling all the pieces into the final whole.",
-                        "Since no piece could be missing, teamwork was essential.",
-                        "Everyone committed to completing and submitting their clips, which were reflected in the final product.",
-                        "Another team member was in charge of producing the audio, bringing this project to its conclusion."
+                        'This project is not yet complete, so there are still details pending resolution.',
+                        'However, there are also aspects worth refactoring, such as the use of internal modules or the integration of contexts to avoid prop drilling throughout the application.'
                     ],
-                    media: [deraizPost],
-                },
-            },
-            sectionFooter: "Special thanks to Universidad de los Andes for this project.",
-        }
-    },
-    {
-        id: 'p4',
-        title: 'Camilo and Sofia',
-        description:
-            'This is a short film that I directed and edited in 2025. The production process lasted approximately 2 months, during which I was responsible for planning, script development, casting, and post-production editing. The project was carried out alongside a production assistant, 2 lead actors, and 8 supporting actors. It was edited using Adobe Premiere Pro in collaboration with the Universidad de los Andes.',
-        iframeSrc: 'https://drive.google.com/file/d/1WwlQynzBXN-HRBTu0O6hgMcyh3UD2hig/preview',
-        section: '2025',
-        hasExternalLinks: false,
-        externalLinks: "",
-        isShowingTheProcess: false,
-        process: {
-            sections: {
-                preproduction: {
-                    title: "Storyboard and Pre-production",
-                    description: [
-                        "In creating this project, I wanted to tell a story rooted in an everyday anecdote, drawn from ordinary life and grounded in reality.",
-                        "The original concept was to take an anecdote, such as a waiter arguing with a customer, and begin weaving a story from there.",
-                        "By developing a storyboard and a script, I began building the narrative, aiming to effectively showcase the contrast between two completely opposite characters.",
-                        "Alongside this, I also scouted filming locations, spoke with actors, and ran equipment tests to decide which elements to use in the short film.",
-                        "References:",
-                        "Sting. (1987). Englishman in New York [Song]. On ...Nothing Like the Sun. A&M Records."
-                    ],
-                    media: [cysPre1, cysPre2, cysPre3],
-                },
-                production: {
-                    title: 'Shooting and Production',
-                    description: [
-                        "This project involved a total of one week of filming, including principal scenes and necessary reshoots.",
-                        "All of this was managed under a very strict shooting schedule, as the restaurant owner did not want to lose potential customers during filming hours, meaning we had limited time to shoot each day.",
-                        "This was all made possible with the help of my production assistant, the actors and actresses who supported the project, and the restaurant owner."
-                    ],
-                    media: [cysPro1, cysPro2],
-                },
-                postproduction: {
-                    title: "Editing and Post-production",
-                    description: [
-                        "The final stage was primarily focused on assembling the clips in the edit.",
-                        "This also included audio retouching, image correction, and incorporating the necessary visual graphics and titles."
-                    ],
-                    media: [cysPost],
-                },
-            },
-            sectionFooter: 'Special thanks to the restaurant "La Esquina Vegetariana" and to Universidad de los Andes.',
-        }
-    },
-    {
-        id: 'p5',
-        title: 'Rubik\'s Cube Experiment',
-        description:
-            'This is a short experimental rotoscoping animation created using Photoshop, featuring royalty-free external audio.',
-        iframeSrc: 'https://www.youtube.com/embed/8fDgl2y5pW4?si=G0diJ7Bx9-Kbe3uO',
-        section: '2024',
-        hasExternalLinks: false,
-        externalLinks: "",
-        isShowingTheProcess: false,
-        process: {
-            sections: {
-                preproduction: {
-                    title: "Initial Concept",
-                    description: [
-                        "This was a simpler experiment to test a different approach to rotoscoping.",
-                        "The objective was straightforward: take a video and transform how it was presented using the rotoscoping technique."
-                    ],
-                    media: [rubixPre],
-                },
-                production: {
-                    title: "During Production",
-                    description: [
-                        "The animation was quite simple, first the lineart, then the fill.",
-                        "In the initial concept, I had planned to also include the hands.",
-                        "I did manage to finish the lineart for them, but I realized the concept would be far more interesting if the cube appeared to move on its own."
-                    ],
-                    media: [rubixPro],
-                },
-                postproduction: {
-                    title: "Final Details",
-                    description: [
-                        "Post-production focused mainly on developing the separate movement and ensuring everything worked properly.",
-                        "A generic audio track was also added."
-                    ],
-                    media: [rubixPost],
-                },
-            },
-            sectionFooter: "",
-        }
-    },
-    {
-        id: 'p6',
-        title: 'Ihand',
-        description:
-            'This is a short commercial-style project designed to replicate the visual language of technology brand advertisements. The piece promotes the fictional product "Ihand", imagined as a smartphone embedded into the human hand. The project was created using Adobe Premiere Pro exclusively for learning purposes and without commercial intent. All assets used are royalty-free.',
-        iframeSrc: 'https://drive.google.com/file/d/1_-sBUPp8M_1wnphZo3tSKYjp-P9vuXXH/preview',
-        section: '2024',
-        hasExternalLinks: false,
-        externalLinks: "",
-        isShowingTheProcess: false,
-        process: {
-            sections: {
-                preproduction: {
-                    title: "Original Idea",
-                    description: [
-                        "The concept behind this project was to create a commercial for a non-existent product, inspired by real brands.",
-                        "In this case, the main inspiration was Apple and its very distinctive visual style."
-                    ],
-                    media: [handPre],
-                },
-                production: {
-                    title: "Production",
-                    description: [
-                        "This was primarily a quick editing exercise.",
-                        "It was done using archival footage and royalty-free audio."
-                    ],
-                    media: [handPro],
-                },
-                postproduction: {
-                    title: "Details",
-                    description: [
-                        "The final details consisted of polishing and adjusting everything to make it look as close to the reference style as possible."
-                    ],
-                    media: [handPost],
-                },
-            },
-            sectionFooter: "All clips are in the public domain, as is the audio.",
-        }
-    },
-    {
-        id: 'p7',
-        title: 'All Digital Media & Kommo',
-        description:
-            'This reel involved translation and localization work, as the original material was in English. I also modified the final on-screen information to align with the branding and company details of "All Digital Media". The editing adjustments were completed using Adobe Premiere Pro.',
-        iframeSrc: 'https://youtube.com/embed/1WuCEfHVqKE?si=Cb7EJZq1qPUohQoi',
-        section: '2024',
-        hasExternalLinks: false,
-        externalLinks: "",
-        isShowingTheProcess: false,
-        process: {
-            sections: {
-                preproduction: {
-                    title: "Before Starting",
-                    description: [
-                        "This is a re-editing project, so most of the material already existed. At this stage, the focus was simply on identifying what needed to be changed."
-                    ],
-                    media: [kommoPre],
-                },
-                production: {
-                    title: "The Production Itself",
-                    description: [
-                        "The editing process was relatively straightforward.",
-                        "The focus was on translating the on-screen elements and adding the necessary titles."
-                    ],
-                    media: [kommoPro],
-                },
-                postproduction: {
-                    title: "Review",
-                    description: [
-                        "On the production side, this stage was simply about reviewing the details and making final adjustments.",
-                        "The most notable change was updating the contact information, as this was tied to the same system."
-                    ],
-                    media: [kommoPost],
-                },
-            },
-            sectionFooter: "",
-        }
-    },
-    {
-        id: 'p8',
-        title: 'All Digital Media & Big Commerce',
-        description:
-            'This reel involved translation and localization work from the original English version. I also adapted the final information sequence to match the branding requirements of "All Digital Media", including adjustments to the final transition displaying the company logo and corporate details. The project was edited using Adobe Premiere Pro.',
-        iframeSrc: 'https://www.youtube.com/embed/Bmp48LleZ0E?si=LhpADvwiw_JX4yf-',
-        section: '2023',
-        hasExternalLinks: false,
-        externalLinks: "",
-        isShowingTheProcess: false,
-        process: {
-            sections: {
-                preproduction: {
-                    title: "Before Starting",
-                    description: [
-                        "The pre-production process was mainly about analyzing the video and identifying what needed to be changed.",
-                        "It also involved gathering all the necessary assets."
-                    ],
-                    media: [BigPre],
-                },
-                production: {
-                    title: "Production Itself",
-                    description: [
-                        "In terms of text, the project itself was mainly about adding the new logos.",
-                        "However, the most notable aspect was that I was asked to create a smoother and shorter version of the project.",
-                        "For many sections, I had to build transitions from scratch and integrate them dynamically.",
-                        "This applied to both the audio and the video."
-                    ],
-                    media: [BigPro1, BigPro2, BigPro3],
-                },
-                postproduction: {
-                    title: "Final Review",
-                    description: [
-                        "After that, the process focused on reviewing with the client to ensure all the information was correctly applied and that no errors were present."
-                    ],
-                    media: [BigPost],
-                },
-            },
-            sectionFooter: "",
-        }
-    },
-    {
-        id: 'p9',
-        title: 'Pre Icfes Con Estilo',
-        description:
-            'This commercial was produced for the educational institution "Pre Icfes con Estilo", where I served as director. The primary objective was to create both a YouTube advertisement and an introductory video for the institution\'s digital platform. While some archival material was provided, approximately 90% of the footage was filmed and produced by our team, which consisted of a cinematographer, an editor, and myself as director.',
-        iframeSrc: 'https://www.youtube.com/embed/NBRRBUN4RIo?si=gGZIcidqop_jK5Q7',
-        section: '2023',
-        hasExternalLinks: false,
-        externalLinks: "",
-        isShowingTheProcess: false,
-        process: {
-            sections: {
-                preproduction: {
-                    title: "Planning and Preparation",
-                    description: [
-                        "This project was created to produce an explanatory advertisement for the Pre Icfes con Estilo business, a preparation service for the national government exams.",
-                        "The work was guided by pre-established brand guidelines that we had to follow throughout the video planning and scripting process.",
-                        "It was also necessary to confirm the availability of all required filming locations, as well as to coordinate the actors and equipment needed."
-                    ],
-                    media: [preicfesPre],
-                },
-                production: {
-                    title: "The Filming Days",
-                    description: [
-                        "We had 4 days to film, so every moment mattered.",
-                        "We captured multiple takes from different angles across various spaces provided by the university, which gave us a wide range of material to choose from.",
-                        "Our primary focus was on recording audio correctly.",
-                        "We even ended up with more audio files than video files, to ensure the best possible sound quality."
-                    ],
-                    media: [preicfesPro],
-                },
-                postproduction: {
-                    title: "Additional Material",
-                    description: [
-                        "Finally, we needed clips from the official platform in order to showcase all the available tools in detail.",
-                        "This was achieved by recording the screen and using an animated mouse to provide a better visual walkthrough."
-                    ],
-                    media: [preicfesPost],
-                },
-            },
-            sectionFooter: "Primary client: Pre Icfes con Estilo. Secondary client: Universidad de los Andes.",
-        }
-    },
-    {
-        id: 'p10',
-        title: 'Singing a Sailboat',
-        description:
-            'This short film was produced in collaboration with a team of 3 people, where I assumed the role of director. The project\'s artistic intention was to portray the life of a humble sailmaker attempting to reconnect with his son. The production was carried out in collaboration with the Universidad de los Andes.',
-        iframeSrc: 'https://www.youtube.com/embed/rDiEsuEZWrU?si=6IV62kOXw4F4L1N_',
-        section: '2024',
-        hasExternalLinks: false,
-        externalLinks: "",
-        isShowingTheProcess: false,
-        process: {
-            sections: {
-                preproduction: {
-                    title: "Pre-production",
-                    description: [
-                        "For this project, we had to explore a character's life and use that as the basis for developing a short film.",
-                        "Because of this, we spent weeks interviewing and getting to know different people.",
-                        "We eventually found our character, 'Alejandro', whose humble life making candles became the heart of the story.",
-                        "Since this initial phase was experimental, a lot of footage was recorded that did not make it into the final cut, as we explored different directions for the story.",
-                        "However, this does not mean we worked without a script. ",
-                        "We began building a structure based on what was and was not working."
-                    ],
-                    media: [CantarPre1, CantarPre2],
-                },
-                production: {
-                    title: "Filming the Story Itself",
-                    description: [
-                        "During the filming days, everything depended on Alejandro's availability at the workshop.",
-                        "Clips of him inside the workshop were not an issue, as we simply captured his day-to-day routine.",
-                        "However, asking him to film in other locations proved to be more challenging.",
-                        "There came a point where he no longer wanted to film, and we had to work with the material we already had.",
-                        "Because of this, we even added clips of secondary characters to help complement the narrative."
-                    ],
-                    media: [CantarPro1, CantarPro2],
-                },
-                postproduction: {
-                    title: "Final Adjustments",
-                    description: [
-                        "During post-production, the team decided to shift perspective and focus more on the son, using the same visual style throughout.",
-                        "We also had to retouch the lighting, polish the audio, and ensure everything looked as good as possible before the final deadline."
-                    ],
-                    media: [CantarPost],
-                },
-            },
-            sectionFooter: "",
-        }
-    },
-    {
-        id: 'p11',
-        title: 'Pirate vs Samurai',
-        description:
-            'This is a rotoscoping project in which I experimented with animation techniques during one of my first experiences using Adobe Photoshop. The project was created using Photoshop in combination with Adobe Premiere Pro. Stock audio was used, and the full production process took approximately 2 weeks, including recording the original frames, rotoscoping, and post-production.',
-        iframeSrc: 'https://www.youtube.com/embed/QvqdybkfV2g?si=iCi8a9ctJ5-mHg9p',
-        section: '2022',
-        hasExternalLinks: false,
-        externalLinks: "",
-        isShowingTheProcess: false,
-        process: {
-            sections: {
-                preproduction: {
-                    title: "Initial Concept",
-                    description: [
-                        "The goal of this project was to take a video and transform it into something entirely different.",
-                        "Additionally, it was my first time doing rotoscoping, so I had to follow the line of the original footage very carefully.",
-                        "This project marked the beginning of one of the techniques I have used most in animation."
-                    ],
-                    media: [samuraiPre],
-                },
-                production: {
-                    title: "The Process Itself",
-                    description: [
-                        "The idea was to start small and gradually build out all the frames from there.",
-                        "We are talking about a 5-second clip at 25 frames per second, which loops continuously to give a better sense of movement.",
-                        "All of this also included creating the backgrounds and coloring the lineart."
-                    ],
-                    media: [samuraiPro],
-                },
-                postproduction: {
-                    title: "Final Process with Premiere",
-                    description: [
-                        "Using Premiere, I was able to add more movement to the elements through vector animation, which was built entirely within the same program.",
-                        "During this final stage, the audio was also handled along with color grading."
-                    ],
-                    media: [samuraiPost],
-                },
-            },
-            sectionFooter: "",
-        }
-    },
-    {
-        id: 'p12',
-        title: 'SALESmanago and Yandex ADS',
-        description:
-            'This was a project where I worked as editor, responsible for refining the original animated video by adding logos and integrating them efficiently with the existing transitions. Additionally, I incorporated all elements within a short timeframe in an effective manner. This project was edited using Adobe Premiere Pro.',
-        iframeSrc: 'https://www.youtube.com/embed/gw3qSyxWISw?si=kQbA5_IqMW0bBG6G',
-        section: '2024',
-        hasExternalLinks: false,
-        externalLinks: "",
-        isShowingTheProcess: false,
-        process: {
-            sections: {
-                preproduction: {
-                    title: 'Pre-production',
-                    description: [
-                        "This project had two versions, so the pre-production process for both videos was similar.",
-                        "It involved finding the logos to be included, as well as identifying which elements needed to be added.",
-                        "This is V2."
-                    ],
-                    media: [YandexPre1, YandexPre2],
-                },
-                production: {
-                    title: "Production",
-                    description: [
-                        "The work requested for this project was not complicated, because it was only adding the logos and translating the on-screen elements.",
-                        "All of this was done without compromising the original video or its professional quality."
-                    ],
-                    media: [YandexPro1, YandexPro2],
-                },
-                postproduction: {
-                    title: "Final Touches",
-                    description: [
-                        "The closing stage involved reviewing both videos.",
-                        "Likewise, checking quality and version consistency to ensure uniformity between them."
-                    ],
-                    media: [YandexPost],
-                },
-            },
-            sectionFooter: "",
-        }
-    },
-    {
-        id: 'p13',
-        title: 'AllDigital, SALESmanago and Yandex ADS',
-        description:
-            'This is a project in which my role was both video editor and translator. For the main content, I was responsible for adding the brand logos and integrating them seamlessly with the existing video material. Additionally, I translated the video, which was originally in English. The entire project was completed within a short timeframe using Adobe Premiere Pro.',
-        iframeSrc: 'https://www.youtube.com/embed/gw3qSyxWISw?si=QUrFat9nCfqdG1lr',
-        section: '2024',
-        hasExternalLinks: false,
-        externalLinks: "",
-        isShowingTheProcess: false,
-        process: {
-            sections: {
-                preproduction: {
-                    title: 'Pre-production',
-                    description: [
-                        "This project had two versions, so the pre-production process for both videos was similar.",
-                        "It involved finding the logos to be included, as well as identifying which elements needed to be added.",
-                        "This is V1."
-                    ],
-                    media: [YandexPre1, YandexPre2],
-                },
-                production: {
-                    title: "Production",
-                    description: [
-                        "The work requested for this project was not overly complex.",
-                        "It mainly consisted of adding the logos and translating the on-screen elements.",
-                        "All of this was done without compromising the original video or its professional quality."
-                    ],
-                    media: [YandexPro1, YandexPro2],
-                },
-                postproduction: {
-                    title: "Final Touches",
-                    description: [
-                        "The closing stage involved reviewing both videos, aside from checking quality and version consistency to ensure uniformity between them."
-                    ],
-                    media: [YandexPost],
+                    media: [postCocktail],
                 },
             },
             sectionFooter: "",

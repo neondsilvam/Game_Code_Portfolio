@@ -6,7 +6,6 @@ const translations: Record<Lang, Translations> = {
     nav: {
       logo: 'Julian D Silva',
       perfil: 'Inicio',
-      github: 'Proyectos GitHub',
       gameExp: 'Experiencia en Videojuegos',
       uiExp: 'Experiencia en UI',
       contacto: 'Contacto',
@@ -23,17 +22,6 @@ const translations: Record<Lang, Translations> = {
               "Además, he trabajado con tecnologías y lenguajes como Python, C++, Kotlin y C#, así como con herramientas y frameworks complementarios como Processing, p5.js, CMD Script, HLSL y TypeScript. Actualmente, continúo ampliando mis conocimientos y experiencia, con un enfoque principal en React, React Native y Vue, tecnologías que utilizo para desarrollar aplicaciones modernas, eficientes y centradas en la experiencia del usuario.",
           tags: ['HTML - 2 años', 'CSS - 2 años', 'JavaScript - 1 año', 'C# - 1 año', 'Vue - 6 meses', 'React - 6 meses', 'React Native - 6 meses', 'C++ - 6 meses'],
       },
-    github: {
-        sections: [
-            { id: '2025', label: '2025' },
-            { id: '2026', label: '2026' },
-        ],
-      aclaration: 'Estos han sido mis mejores proyectos de GitHub.',
-      projects: [
-      ],
-      showingProcessButtonTextFalse: "Mostrar proceso",
-      showingProcessButtonTextTrue: "Ocultar proceso",
-    },
     gameExp: {
         sections: [
             { id: '2025', label: '2025' },
@@ -67,8 +55,8 @@ const translations: Record<Lang, Translations> = {
               phoneCad: 'Teléfono',
               location: 'Ubicación',
               linkedin: 'LinkedIn',
-              github: 'Main GitHub Link (Projectos principales)',
-              //SecondaryGithub: 'Secondary Github Link (Experimentos y exploracion)'
+              MainGithub: 'GitHub Principal (Projectos principales)',
+              SecondaryGithub: 'Github Secundarios (Experimentos y exploración)'
           },
       },
   },
@@ -76,7 +64,6 @@ const translations: Record<Lang, Translations> = {
     nav: {
       logo: 'Julian D Silva',
       perfil: 'Home',
-      github: 'GitHub Projects',
       gameExp: 'Game Dev Experience',
       uiExp: 'UI Dev Experience',
       contacto: 'Contact',
@@ -93,17 +80,6 @@ const translations: Record<Lang, Translations> = {
               "In addition, I have worked with technologies and programming languages such as Python, C++, Kotlin, and C#, as well as complementary tools and frameworks including Processing, p5.js, CMD Script, HLSL, and TypeScript. I am continuously expanding my knowledge and experience, with a primary focus on React, React Native, and Vue, which I use to create modern, efficient, and user-centered applications.",
           tags: ['HTML - 2 years', 'CSS - 2 years', 'JavaScript - 1 year', 'C# - 1 year', 'Vue - 6 months', 'React - 6 months', 'React Native - 6 months', 'C++ - 6 months'],
       },
-    github: {
-        sections: [
-            { id: '2025', label: '2025' },
-            { id: '2026', label: '2026' },
-        ],
-        aclaration: 'These are my best GitHub projects.',
-        projects: [
-        ],
-    showingProcessButtonTextFalse: "Show Process",
-    showingProcessButtonTextTrue: "Hide Process",
-    },
     gameExp: {
         sections: [
             { id: '2025', label: '2025' },
@@ -137,8 +113,8 @@ const translations: Record<Lang, Translations> = {
               phoneCad: 'Phone',
               location: 'Location',
               linkedin: 'LinkedIn',
-              github: 'Main GitHub Link (Main projects)',
-              //SecondaryGithub: 'Secondary Github Link (Self learn and exploration)'
+              MainGithub: 'Main GitHub Link (Main projects)',
+              SecondaryGithub: 'Secondary Github Link (Self learn and exploration)'
           },
       },
   },
