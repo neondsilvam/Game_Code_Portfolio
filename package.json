@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://http//neondsilvam.github.io/Visual_Portfolio",
+  "homepage": "http://http//neondsilvam.github.io/Game_Code_Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
