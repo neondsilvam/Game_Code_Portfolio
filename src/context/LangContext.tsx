@@ -7,7 +7,7 @@ const translations: Record<Lang, Translations> = {
       logo: 'Julian D Silva',
       perfil: 'Inicio',
       gameExp: 'Experiencia en Videojuegos',
-      uiExp: 'Experiencia en UI',
+      uiExp: 'Experiencia en Diseño UI',
       contacto: 'Contacto',
       langBtn: 'EN',
     },
@@ -45,8 +45,8 @@ const translations: Record<Lang, Translations> = {
       contacto: {
           title: 'Información de contacto',
           subtitle1:
-              'Las buenas ideas merecen hacerse realidad. Si tienes un proyecto o simplemente ganas de crear algo diferente, este es el momento.',
-          subtitle2: " \n\n No dejes tus ideas en borrador. Escríbeme y llevemos tu idea al siguiente nivel.",
+              '¿Tienes un projecto en mente?¿Quieres desarrollar alguna idea?',
+          subtitle2: " \n\n No desaproveches la oportunidad, escríbeme y llevemos tus ideas al siguiente nivel.",
           labels: {
               email: 'Email',
               phoneCol: 'Teléfono',
@@ -101,8 +101,8 @@ const translations: Record<Lang, Translations> = {
       contacto: {
           title: 'Contact info',
           subtitle1:
-              "Insightful ideas deserve to become a reality. If you have a project in mind or simply have the impulse to make something different, this is your moment.",
-          subtitle2: " \n\n Don't scrap those ideas. Send me a message and let's develop your idea's full potential!",
+              "Do you have a project in mind? Do you want to bring an idea to life?",
+          subtitle2: " \n\n Let's bring your idea to life. Send me a message and let's get started.",
           labels: {
               email: 'Email',
               phoneCol: 'Phone',

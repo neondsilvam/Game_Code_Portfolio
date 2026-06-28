@@ -53,7 +53,8 @@ export const GameExpES: Project[] = [
         description:
             'Este proyecto fue desarrollado en colaboración con la Universidad de los Andes. ' +
             'Presenta el DEMO de una novela gráfica interactiva para dispositivos móviles Android, centrada en Ashley, una joven con nomofobia que se pierde en un bosque mientras su familia acampa y debe encontrar el camino de regreso. ' +
-            'Este proyecto representa mi primer acercamiento profesional a Unity y mi inicio formal en el área de programación, ya que con anterioridad únicamente había realizado ejercicios menores.',
+            'Este proyecto representa mi primer acercamiento profesional a Unity y mi inicio formal en el área de programación, ya que con anterioridad únicamente había realizado ejercicios menores. ' +
+            'Puedes descargar un DEMO del projecto en formato APK para dispositivos Android (Para esto es necesario autorizar el dispositivo para instalar aplicaciones externas.)',
         isProjectDeployed: false,
         iframeSrc: '',
         imageSrc: DesConectado,
@@ -96,8 +97,8 @@ export const GameExpES: Project[] = [
                         'Durante este proceso identifiqué un error de diseño: no realicé pruebas durante la producción misma.',
                         'Esta experiencia me permitió entender que era necesaria una mayor investigación para comprender al usuario objetivo, además de mejorar la optimización de varios sistemas.',
                         'Dado que este proyecto fue desarrollado en colaboración con la universidad, no me está permitido continuarlo por el momento.',
-                        'No obstante, esta experiencia me dejó clara mi capacidad de desarrollo y la dirección hacia la cual puedo orientarla.',
-                        'Pueden probar el demo escaneando el código QR o accediendo al enlace del proyecto.'
+                        'No obstante, esta experiencia me dejó clara mi capacidad de desarrollo y la dirección hacia la cual puedo orientarla. ',
+                        'Pueden probar el demo escaneando el código QR o accediendo al enlace del proyecto (Es requerido autorizar aplicaciones externas).'
                     ],
                     media: [PostDes1, PostDes2],
                 },
@@ -167,7 +168,7 @@ export const GameExpES: Project[] = [
             'Durante el juego, Ekko deberá resistir durante 5 minutos hasta que lleguen los refuerzos, utilizando su pistola teletransportadora para eliminar los distintos tipos de basura presentes en el área. ' +
             'En este proyecto, estuve a cargo del desarrollo de sistemas generales de juego, así como de la programación de máquinas de estados e inteligencia artificial. ' +
             'La duración total del proyecto fue de 2 meses, distribuidos en 3 semanas para prototipo, 3 para Alpha, 2 para Beta, y una semana final para pulir los detalles del proyecto. ' +
-            'Revisa el enlace desde el minuto indicado para ver la presentación de este:',
+            'Revisa el enlace para descargar el juego (PC):',
         isProjectDeployed: false,
         iframeSrc: '',
         imageSrc: PostEco1,
@@ -268,7 +269,7 @@ export const GameExpEN: Project[] = [
                         'This experience made it clear that further research was needed to better understand the target user, in addition to improving the optimization of several systems.',
                         'Since this project was developed in collaboration with the university, I am not permitted to continue it at this time.',
                         'Nevertheless, this experience gave me a clear sense of my development potential and the direction in which I can channel it.',
-                        'You can try the demo by scanning the QR code or accessing the project link.'
+                        'You can try the demo by scanning the QR code or accessing the project link. (It is required to allow external apps to install in order to test it.)'
                     ],
                     media: [PostDes1, PostDes2],
                 },
@@ -338,7 +339,7 @@ export const GameExpEN: Project[] = [
             'Throughout the game, Ekko must hold out for 5 minutes until reinforcements arrive, using a teleportation gun to eliminate different types of waste scattered across the area. ' +
             'In this project, I was responsible for the development of general game systems as well as the programming of state machines and artificial intelligence. ' +
             'The total duration of the project was 2 months, distributed across 3 weeks for the prototype, 3 for Alpha, 2 for Beta, and a final week dedicated to polishing the project. ' +
-            'Check the link from the indicated timestamp to watch the project presentation:',
+            'Check the link bellow to download the game (PC):',
         isProjectDeployed: false,
         iframeSrc: '',
         imageSrc: PostEco1,
